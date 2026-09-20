@@ -25,7 +25,7 @@ python -m src.task1_collect_legal_docs
 python -m src.task2_crawl_news
 ```
 
-Trong repo có setup sẵn Crawl4AI, các bạn tùy ý sử dụng công cụ khác của mình
+Có thể dùng `requests` và BeautifulSoup hoặc công cụ crawl khác phù hợp.
 
 ## 4. Chuẩn hóa Markdown
 

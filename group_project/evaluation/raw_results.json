@@ -1,0 +1,1771 @@
+{
+  "status": "complete",
+  "run_at_utc": "2026-09-20T19:51:39.012212+00:00",
+  "generator_model": "openai/gpt-4o-mini",
+  "evaluator_model": "openai/gpt-4o-mini",
+  "dataset_size": 15,
+  "top_k": 5,
+  "retrieval_k": 10,
+  "results": [
+    {
+      "config": "A",
+      "question": "Theo bài viết về đổi mới lễ hội, các lễ hội Xuân Ất Tỵ 2025 vừa bảo tồn văn hóa vừa tạo thêm giá trị gì cho địa phương?",
+      "expected_answer": "Các lễ hội vừa bảo tồn những nét văn hóa truyền thống đặc sắc, vừa gia tăng giá trị điểm đến và tạo sức hút du lịch cho địa phương.",
+      "expected_context": "data/standardized/news/article_01.md: công tác quản lý lễ hội bảo tồn nét văn hóa và gia tăng giá trị điểm đến",
+      "answer": "Theo bài viết, các lễ hội Xuân Ất Tỵ 2025 không chỉ làm tốt nhiệm vụ bảo tồn những nét văn hóa truyền thống đặc sắc mà còn góp phần gia tăng giá trị điểm đến, tạo sức hút về du lịch cho địa phương (news/article_01.md::chunk-1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the information in the retrieved context, which supports the claims about cultural preservation and increasing the attractiveness of the destination for tourism. The context is relevant and directly addresses the question.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_01.md::chunk-1",
+          "source": "article_01.md",
+          "chunk_index": 1,
+          "score": 0.6267404792028971,
+          "retrieval_method": "dense",
+          "content": "Đến thời điểm này, hàng loạt lễ hội lớn Xuân Ất Tỵ 2025 như Hội chùa Hương, Hội Xuân Yên Tử, Hội Lim, Hội Gióng Đền Sóc, Hội Gò Đống Đa, Hội khai ấn đền Trần… đều đã lần lượt khai mạc, thu hút hàng chục vạn du khách thập phương.\nTheo ghi nhận của Cục Văn hóa cơ sở (Bộ Văn hóa, Thể thao và Du lịch), với nhiều chuyển biến tích cực trong công tác quản lý, các lễ hội không chỉ làm tốt nhiệm vụ bảo tồn những nét văn hóa truyền thống đặc sắc, mà còn góp phần gia tăng giá trị điểm đến, tạo sức hút về d"
+        },
+        {
+          "id": "news/article_01.md::chunk-16",
+          "source": "article_01.md",
+          "chunk_index": 16,
+          "score": 0.623103731430601,
+          "retrieval_method": "dense",
+          "content": "ng phải phù hợp với bối cảnh văn hóa và tinh thần lễ hội. Cần có sự tham gia của cộng đồng, các chuyên gia văn hóa và các cơ quan quản lý để giám sát quá trình phát triển này,” ông Bùi Hoài Sơn nói.\nTheo ông, khi phát triển lễ hội, chúng ta phải luôn nhớ rằng mục đích cuối cùng là giữ gìn và phát huy giá trị văn hóa, không chỉ thu hút khách du lịch mà còn giữ được sự kết nối với cội nguồn, với những giá trị vô giá mà lễ hội đã được truyền từ bao đời./.\nThu Feb 20 2025 14:46:12 GMT+0700 (Giờ Đông"
+        },
+        {
+          "id": "news/article_01.md::chunk-4",
+          "source": "article_01.md",
+          "chunk_index": 4,
+          "score": 0.6075887392963587,
+          "retrieval_method": "dense",
+          "content": "ho biết việc tăng thêm các lán dành cho thế hệ măng non góp phần nhằm bảo tồn, phát huy giá trị di sản văn hóa dân tộc và lan tỏa tình yêu Quan họ tới thế hệ trẻ.\nLễ hội đền Trần Thương (Thái Bình) năm 2025 cũng diễn ra với nhiều hoạt động phong phú như lễ bái yết và dâng hương, lễ rước nước, lễ khai ấn, các hoạt động văn hóa, thể thao, trò chơi dân gian như: thi cỗ cá, gói bánh chưng, pháo đất, têm trầu cánh phượng, kéo lửa nấu cơm, kéo co, cờ tướng, liên hoan hát văn… Đặc biệt, năm nay, chương"
+        },
+        {
+          "id": "news/article_01.md::chunk-15",
+          "source": "article_01.md",
+          "chunk_index": 15,
+          "score": 0.6059488181194751,
+          "retrieval_method": "dense",
+          "content": "ch đi mục tiêu ban đầu của lễ hội, biến nó thành một sự kiện giải trí đơn thuần mà không còn giữ được bản sắc văn hóa vốn có.\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 5.\n“Việc cân bằng giữa bảo tồn và phát triển là vô cùng quan trọng. Để làm được điều này, chúng ta cần duy trì các yếu tố cốt lõi của lễ hội, từ những nghi thức truyền thống đến không gian tổ chức, đồng thời cho phép sự đổi mới diễn ra nhưng phải phù hợp với bối cảnh văn hóa và tinh thần"
+        },
+        {
+          "id": "news/article_01.md::chunk-0",
+          "source": "article_01.md",
+          "chunk_index": 0,
+          "score": 0.584874337551859,
+          "retrieval_method": "dense",
+          "content": "# Đổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội **Source:** https://bvhttdl.gov.vn/doi-moi-le-hoi-truyen-thong-de-dam-bao-van-minh-nhung-khong-tach-roi-nguon-coi-20250220141658954.htm **Crawled:** 2026-09-20T19:12:31.148373+00:00 **Landing file:** `data/landing/news/article_01.json` ---"
+        }
+      ],
+      "generation_seconds": 5.7079,
+      "evaluation_seconds": 2.1258
+    },
+    {
+      "config": "B",
+      "question": "Theo bài viết về đổi mới lễ hội, các lễ hội Xuân Ất Tỵ 2025 vừa bảo tồn văn hóa vừa tạo thêm giá trị gì cho địa phương?",
+      "expected_answer": "Các lễ hội vừa bảo tồn những nét văn hóa truyền thống đặc sắc, vừa gia tăng giá trị điểm đến và tạo sức hút du lịch cho địa phương.",
+      "expected_context": "data/standardized/news/article_01.md: công tác quản lý lễ hội bảo tồn nét văn hóa và gia tăng giá trị điểm đến",
+      "answer": "Theo bài viết, các lễ hội Xuân Ất Tỵ 2025 không chỉ làm tốt nhiệm vụ bảo tồn những nét văn hóa truyền thống đặc sắc mà còn góp phần gia tăng giá trị điểm đến, tạo sức hút về du lịch cho địa phương (Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the content of the retrieved context, which supports the claims about preserving cultural traditions and enhancing tourism value. The context is relevant and directly addresses the question, matching the reference answer.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_01.md::chunk-1",
+          "source": "article_01.md",
+          "chunk_index": 1,
+          "score": 0.03278688524590164,
+          "retrieval_method": "hybrid",
+          "content": "Đến thời điểm này, hàng loạt lễ hội lớn Xuân Ất Tỵ 2025 như Hội chùa Hương, Hội Xuân Yên Tử, Hội Lim, Hội Gióng Đền Sóc, Hội Gò Đống Đa, Hội khai ấn đền Trần… đều đã lần lượt khai mạc, thu hút hàng chục vạn du khách thập phương.\nTheo ghi nhận của Cục Văn hóa cơ sở (Bộ Văn hóa, Thể thao và Du lịch), với nhiều chuyển biến tích cực trong công tác quản lý, các lễ hội không chỉ làm tốt nhiệm vụ bảo tồn những nét văn hóa truyền thống đặc sắc, mà còn góp phần gia tăng giá trị điểm đến, tạo sức hút về d"
+        },
+        {
+          "id": "news/article_01.md::chunk-16",
+          "source": "article_01.md",
+          "chunk_index": 16,
+          "score": 0.03128054740957967,
+          "retrieval_method": "hybrid",
+          "content": "ng phải phù hợp với bối cảnh văn hóa và tinh thần lễ hội. Cần có sự tham gia của cộng đồng, các chuyên gia văn hóa và các cơ quan quản lý để giám sát quá trình phát triển này,” ông Bùi Hoài Sơn nói.\nTheo ông, khi phát triển lễ hội, chúng ta phải luôn nhớ rằng mục đích cuối cùng là giữ gìn và phát huy giá trị văn hóa, không chỉ thu hút khách du lịch mà còn giữ được sự kết nối với cội nguồn, với những giá trị vô giá mà lễ hội đã được truyền từ bao đời./.\nThu Feb 20 2025 14:46:12 GMT+0700 (Giờ Đông"
+        },
+        {
+          "id": "news/article_01.md::chunk-12",
+          "source": "article_01.md",
+          "chunk_index": 12,
+          "score": 0.03128054740957967,
+          "retrieval_method": "hybrid",
+          "content": "gìn và tôn trọng truyền thống bản địa là cần thiết nhưng cũng cần phải có sự giao thoa, hội nhập để phù hợp với sự phát triển của xã hội.\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 4.\n“Một số nghi lễ được xem là linh thiêng, riêng có của lễ hội đang trở nên phản cảm, bạo lực trong mắt cộng đồng tham dự lễ hội. Theo tôi, cần phải có sự điều chỉnh để vừa bảo tồn được di sản, vừa đảm bảo sự văn minh của lễ hội,” ông Dương Văn Sáu nói.\nCụ thể, ông Sáu cho rằ"
+        },
+        {
+          "id": "news/article_01.md::chunk-15",
+          "source": "article_01.md",
+          "chunk_index": 15,
+          "score": 0.03125,
+          "retrieval_method": "hybrid",
+          "content": "ch đi mục tiêu ban đầu của lễ hội, biến nó thành một sự kiện giải trí đơn thuần mà không còn giữ được bản sắc văn hóa vốn có.\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 5.\n“Việc cân bằng giữa bảo tồn và phát triển là vô cùng quan trọng. Để làm được điều này, chúng ta cần duy trì các yếu tố cốt lõi của lễ hội, từ những nghi thức truyền thống đến không gian tổ chức, đồng thời cho phép sự đổi mới diễn ra nhưng phải phù hợp với bối cảnh văn hóa và tinh thần"
+        },
+        {
+          "id": "news/article_01.md::chunk-4",
+          "source": "article_01.md",
+          "chunk_index": 4,
+          "score": 0.03057889822595705,
+          "retrieval_method": "hybrid",
+          "content": "ho biết việc tăng thêm các lán dành cho thế hệ măng non góp phần nhằm bảo tồn, phát huy giá trị di sản văn hóa dân tộc và lan tỏa tình yêu Quan họ tới thế hệ trẻ.\nLễ hội đền Trần Thương (Thái Bình) năm 2025 cũng diễn ra với nhiều hoạt động phong phú như lễ bái yết và dâng hương, lễ rước nước, lễ khai ấn, các hoạt động văn hóa, thể thao, trò chơi dân gian như: thi cỗ cá, gói bánh chưng, pháo đất, têm trầu cánh phượng, kéo lửa nấu cơm, kéo co, cờ tướng, liên hoan hát văn… Đặc biệt, năm nay, chương"
+        }
+      ],
+      "generation_seconds": 2.592,
+      "evaluation_seconds": 2.4698
+    },
+    {
+      "config": "A",
+      "question": "Hội Lim năm 2025 có những hoạt động văn hóa nào ngoài nghi lễ truyền thống?",
+      "expected_answer": "Hội Lim có trình diễn dân ca Quan họ, thư pháp, hội thơ và triển lãm tư liệu, hiện vật bảo tồn di sản Quan họ Bắc Ninh.",
+      "expected_context": "data/standardized/news/article_01.md: phần hội tại đồi Lim và hồ Vân Tương",
+      "answer": "Hội Lim năm 2025 có nhiều hoạt động văn hóa ngoài nghi lễ truyền thống, bao gồm trình diễn dân ca Quan họ, trình diễn thư pháp, hội thơ, và triển lãm tư liệu, hiện vật bảo tồn di sản dân ca Quan họ Bắc Ninh [Document 1 | ID: news/article_01.md::chunk-3].",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the information provided in the retrieved context. It lists the cultural activities at Hội Lim 2025, which include performances of Quan họ folk songs, calligraphy, poetry events, and exhibitions of materials and artifacts preserving the Quan họ heritage, as stated in the context.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_01.md::chunk-3",
+          "source": "article_01.md",
+          "chunk_index": 3,
+          "score": 0.6319202662825736,
+          "retrieval_method": "dense",
+          "content": "h diễn thư pháp, hội thơ, triển lãm tư liệu, hiện vật bảo tồn di sản dân ca Quan họ Bắc Ninh...\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 1.\nNăm nay, Ban tổ chức Hội Lim bố trí thêm lán Quan họ dành cho các “liền anh, liền chị nhí,” tạo sân chơi cho các em từ 4-15 tuổi, đang sinh hoạt trong các câu lạc bộ của xã và được các nghệ nhân truyền dạy những câu hát, lề lối Quan họ.\nĐại diện Ban Tổ chức lễ hội cho biết việc tăng thêm các lán dành cho thế hệ măn"
+        },
+        {
+          "id": "news/article_01.md::chunk-1",
+          "source": "article_01.md",
+          "chunk_index": 1,
+          "score": 0.5817232542014673,
+          "retrieval_method": "dense",
+          "content": "Đến thời điểm này, hàng loạt lễ hội lớn Xuân Ất Tỵ 2025 như Hội chùa Hương, Hội Xuân Yên Tử, Hội Lim, Hội Gióng Đền Sóc, Hội Gò Đống Đa, Hội khai ấn đền Trần… đều đã lần lượt khai mạc, thu hút hàng chục vạn du khách thập phương.\nTheo ghi nhận của Cục Văn hóa cơ sở (Bộ Văn hóa, Thể thao và Du lịch), với nhiều chuyển biến tích cực trong công tác quản lý, các lễ hội không chỉ làm tốt nhiệm vụ bảo tồn những nét văn hóa truyền thống đặc sắc, mà còn góp phần gia tăng giá trị điểm đến, tạo sức hút về d"
+        },
+        {
+          "id": "news/article_03.md::chunk-15",
+          "source": "article_03.md",
+          "chunk_index": 15,
+          "score": 0.5658521488853522,
+          "retrieval_method": "dense",
+          "content": "rước với các nghi thức rước, tế lễ các thành hoàng các làng, danh thần liệt nữ của quê hương.\nHội Lim quan họ Bắc Ninh\n*Hội Lim quan họ Bắc Ninh*\nNgoài phần lễ, hội còn tổ chức các trò chơi dân gian như đấu võ, đấu cờ, nấu cơm, phần hát hội,… Cách những con người tổ chức hội Lim cũng có nét gì đó rất đặc biệt từ chiếc nón ba tầm, quai thao, dải yếm lụa sồi, khăn đóng,… đến cử chỉ mang gì đó rất tinh tế của người Kinh Bắc. Có lẽ bởi thế, Quan họ đã trở thành văn hóa phi vật thể, nét truyền thống"
+        },
+        {
+          "id": "news/article_01.md::chunk-2",
+          "source": "article_01.md",
+          "chunk_index": 2,
+          "score": 0.5653013858470145,
+          "retrieval_method": "dense",
+          "content": "p phần gia tăng giá trị điểm đến, tạo sức hút về du lịch cho địa phương.\n**Nhiều điểm mới trong tổ chức hội Xuân**\nHội Lim (Bắc Ninh) là một trong những lễ hội đầu năm luôn thu hút sự quan tâm của đông đảo du khách gần xa. Năm nay, bên cạnh phần nghi lễ truyền thống, phần hội diễn ra nhiều hoạt động sôi nổi tại trung tâm đồi Lim, hồ điều hòa Vân Tương (thị trấn Lim) và một số khu vực lân cận với phong phú hoạt động trình diễn dân ca Quan họ, trình diễn thư pháp, hội thơ, triển lãm tư liệu, hiện"
+        },
+        {
+          "id": "news/article_03.md::chunk-14",
+          "source": "article_03.md",
+          "chunk_index": 14,
+          "score": 0.5621508760650213,
+          "retrieval_method": "dense",
+          "content": "ham quan. Đặc sản tại nơi đây là các món ăn dân dã như thịt chua, tằm cọ,bánh tai, cơm nắm lá cọ, cọ ỏm chấm mắm và canh cá rau sắn.\n**Hội Lim**\nHội Lim được mệnh danh là lễ hội truyền thống nổi tiếng của tỉnh Bắc Ninh, là hội của các làng xã cổ nằm quanh núi Lim và đôi bờ sông Tiêu Tương, thể hiện được nét văn hóa nghệ thuật và tín ngưỡng tâm linh của nhân dân xứ Kinh Bắc. Mỗi năm, Hội Lim được mở vào ngày 13 tháng Giêng âm lịch, bắt đầu bằng lễ rước với các nghi thức rước, tế lễ các thành hoàn"
+        }
+      ],
+      "generation_seconds": 2.6003,
+      "evaluation_seconds": 2.3604
+    },
+    {
+      "config": "B",
+      "question": "Hội Lim năm 2025 có những hoạt động văn hóa nào ngoài nghi lễ truyền thống?",
+      "expected_answer": "Hội Lim có trình diễn dân ca Quan họ, thư pháp, hội thơ và triển lãm tư liệu, hiện vật bảo tồn di sản Quan họ Bắc Ninh.",
+      "expected_context": "data/standardized/news/article_01.md: phần hội tại đồi Lim và hồ Vân Tương",
+      "answer": "Hội Lim năm 2025 có nhiều hoạt động văn hóa ngoài nghi lễ truyền thống, bao gồm các hoạt động sôi nổi như trình diễn dân ca Quan họ, trình diễn thư pháp, hội thơ, và triển lãm tư liệu, hiện vật bảo tồn di sản dân ca Quan họ Bắc Ninh (news/article_01.md::chunk-3, news/article_01.md::chunk-2).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 0.8
+      },
+      "justification": "The answer accurately reflects the retrieved context, which includes activities such as Quan họ singing, calligraphy, poetry, and exhibitions related to Quan họ heritage. The context recall is high as it contains the necessary information for the reference answer. Context precision is slightly lower due to some unrelated details in the retrieved context.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_03.md::chunk-15",
+          "source": "article_03.md",
+          "chunk_index": 15,
+          "score": 0.032266458495966696,
+          "retrieval_method": "hybrid",
+          "content": "rước với các nghi thức rước, tế lễ các thành hoàng các làng, danh thần liệt nữ của quê hương.\nHội Lim quan họ Bắc Ninh\n*Hội Lim quan họ Bắc Ninh*\nNgoài phần lễ, hội còn tổ chức các trò chơi dân gian như đấu võ, đấu cờ, nấu cơm, phần hát hội,… Cách những con người tổ chức hội Lim cũng có nét gì đó rất đặc biệt từ chiếc nón ba tầm, quai thao, dải yếm lụa sồi, khăn đóng,… đến cử chỉ mang gì đó rất tinh tế của người Kinh Bắc. Có lẽ bởi thế, Quan họ đã trở thành văn hóa phi vật thể, nét truyền thống"
+        },
+        {
+          "id": "news/article_01.md::chunk-2",
+          "source": "article_01.md",
+          "chunk_index": 2,
+          "score": 0.031754032258064516,
+          "retrieval_method": "hybrid",
+          "content": "p phần gia tăng giá trị điểm đến, tạo sức hút về du lịch cho địa phương.\n**Nhiều điểm mới trong tổ chức hội Xuân**\nHội Lim (Bắc Ninh) là một trong những lễ hội đầu năm luôn thu hút sự quan tâm của đông đảo du khách gần xa. Năm nay, bên cạnh phần nghi lễ truyền thống, phần hội diễn ra nhiều hoạt động sôi nổi tại trung tâm đồi Lim, hồ điều hòa Vân Tương (thị trấn Lim) và một số khu vực lân cận với phong phú hoạt động trình diễn dân ca Quan họ, trình diễn thư pháp, hội thơ, triển lãm tư liệu, hiện"
+        },
+        {
+          "id": "news/article_01.md::chunk-3",
+          "source": "article_01.md",
+          "chunk_index": 3,
+          "score": 0.03131881575727918,
+          "retrieval_method": "hybrid",
+          "content": "h diễn thư pháp, hội thơ, triển lãm tư liệu, hiện vật bảo tồn di sản dân ca Quan họ Bắc Ninh...\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 1.\nNăm nay, Ban tổ chức Hội Lim bố trí thêm lán Quan họ dành cho các “liền anh, liền chị nhí,” tạo sân chơi cho các em từ 4-15 tuổi, đang sinh hoạt trong các câu lạc bộ của xã và được các nghệ nhân truyền dạy những câu hát, lề lối Quan họ.\nĐại diện Ban Tổ chức lễ hội cho biết việc tăng thêm các lán dành cho thế hệ măn"
+        },
+        {
+          "id": "news/article_01.md::chunk-4",
+          "source": "article_01.md",
+          "chunk_index": 4,
+          "score": 0.031024531024531024,
+          "retrieval_method": "hybrid",
+          "content": "ho biết việc tăng thêm các lán dành cho thế hệ măng non góp phần nhằm bảo tồn, phát huy giá trị di sản văn hóa dân tộc và lan tỏa tình yêu Quan họ tới thế hệ trẻ.\nLễ hội đền Trần Thương (Thái Bình) năm 2025 cũng diễn ra với nhiều hoạt động phong phú như lễ bái yết và dâng hương, lễ rước nước, lễ khai ấn, các hoạt động văn hóa, thể thao, trò chơi dân gian như: thi cỗ cá, gói bánh chưng, pháo đất, têm trầu cánh phượng, kéo lửa nấu cơm, kéo co, cờ tướng, liên hoan hát văn… Đặc biệt, năm nay, chương"
+        },
+        {
+          "id": "news/article_03.md::chunk-14",
+          "source": "article_03.md",
+          "chunk_index": 14,
+          "score": 0.031009615384615385,
+          "retrieval_method": "hybrid",
+          "content": "ham quan. Đặc sản tại nơi đây là các món ăn dân dã như thịt chua, tằm cọ,bánh tai, cơm nắm lá cọ, cọ ỏm chấm mắm và canh cá rau sắn.\n**Hội Lim**\nHội Lim được mệnh danh là lễ hội truyền thống nổi tiếng của tỉnh Bắc Ninh, là hội của các làng xã cổ nằm quanh núi Lim và đôi bờ sông Tiêu Tương, thể hiện được nét văn hóa nghệ thuật và tín ngưỡng tâm linh của nhân dân xứ Kinh Bắc. Mỗi năm, Hội Lim được mở vào ngày 13 tháng Giêng âm lịch, bắt đầu bằng lễ rước với các nghi thức rước, tế lễ các thành hoàn"
+        }
+      ],
+      "generation_seconds": 2.7574,
+      "evaluation_seconds": 3.8089
+    },
+    {
+      "config": "A",
+      "question": "Ban tổ chức Hội Lim bố trí lán Quan họ cho nhóm nào và mục đích là gì?",
+      "expected_answer": "Lán Quan họ dành cho các liền anh, liền chị nhí từ 4 đến 15 tuổi, nhằm tạo sân chơi và góp phần bảo tồn, truyền dạy Quan họ cho thế hệ trẻ.",
+      "expected_context": "data/standardized/news/article_01.md: lán Quan họ dành cho thế hệ măng non",
+      "answer": "Ban tổ chức Hội Lim bố trí lán Quan họ dành cho các “liền anh, liền chị nhí,” tạo sân chơi cho các em từ 4-15 tuổi, nhằm bảo tồn, phát huy giá trị di sản văn hóa dân tộc và lan tỏa tình yêu Quan họ tới thế hệ trẻ (Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the information in the retrieved context, providing details about the purpose of the Quan họ tents for young participants and their role in preserving cultural heritage.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_01.md::chunk-3",
+          "source": "article_01.md",
+          "chunk_index": 3,
+          "score": 0.677396722536678,
+          "retrieval_method": "dense",
+          "content": "h diễn thư pháp, hội thơ, triển lãm tư liệu, hiện vật bảo tồn di sản dân ca Quan họ Bắc Ninh...\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 1.\nNăm nay, Ban tổ chức Hội Lim bố trí thêm lán Quan họ dành cho các “liền anh, liền chị nhí,” tạo sân chơi cho các em từ 4-15 tuổi, đang sinh hoạt trong các câu lạc bộ của xã và được các nghệ nhân truyền dạy những câu hát, lề lối Quan họ.\nĐại diện Ban Tổ chức lễ hội cho biết việc tăng thêm các lán dành cho thế hệ măn"
+        },
+        {
+          "id": "news/article_03.md::chunk-15",
+          "source": "article_03.md",
+          "chunk_index": 15,
+          "score": 0.5645324519087123,
+          "retrieval_method": "dense",
+          "content": "rước với các nghi thức rước, tế lễ các thành hoàng các làng, danh thần liệt nữ của quê hương.\nHội Lim quan họ Bắc Ninh\n*Hội Lim quan họ Bắc Ninh*\nNgoài phần lễ, hội còn tổ chức các trò chơi dân gian như đấu võ, đấu cờ, nấu cơm, phần hát hội,… Cách những con người tổ chức hội Lim cũng có nét gì đó rất đặc biệt từ chiếc nón ba tầm, quai thao, dải yếm lụa sồi, khăn đóng,… đến cử chỉ mang gì đó rất tinh tế của người Kinh Bắc. Có lẽ bởi thế, Quan họ đã trở thành văn hóa phi vật thể, nét truyền thống"
+        },
+        {
+          "id": "news/article_01.md::chunk-2",
+          "source": "article_01.md",
+          "chunk_index": 2,
+          "score": 0.5055906746139359,
+          "retrieval_method": "dense",
+          "content": "p phần gia tăng giá trị điểm đến, tạo sức hút về du lịch cho địa phương.\n**Nhiều điểm mới trong tổ chức hội Xuân**\nHội Lim (Bắc Ninh) là một trong những lễ hội đầu năm luôn thu hút sự quan tâm của đông đảo du khách gần xa. Năm nay, bên cạnh phần nghi lễ truyền thống, phần hội diễn ra nhiều hoạt động sôi nổi tại trung tâm đồi Lim, hồ điều hòa Vân Tương (thị trấn Lim) và một số khu vực lân cận với phong phú hoạt động trình diễn dân ca Quan họ, trình diễn thư pháp, hội thơ, triển lãm tư liệu, hiện"
+        },
+        {
+          "id": "news/article_01.md::chunk-4",
+          "source": "article_01.md",
+          "chunk_index": 4,
+          "score": 0.49674646676700984,
+          "retrieval_method": "dense",
+          "content": "ho biết việc tăng thêm các lán dành cho thế hệ măng non góp phần nhằm bảo tồn, phát huy giá trị di sản văn hóa dân tộc và lan tỏa tình yêu Quan họ tới thế hệ trẻ.\nLễ hội đền Trần Thương (Thái Bình) năm 2025 cũng diễn ra với nhiều hoạt động phong phú như lễ bái yết và dâng hương, lễ rước nước, lễ khai ấn, các hoạt động văn hóa, thể thao, trò chơi dân gian như: thi cỗ cá, gói bánh chưng, pháo đất, têm trầu cánh phượng, kéo lửa nấu cơm, kéo co, cờ tướng, liên hoan hát văn… Đặc biệt, năm nay, chương"
+        },
+        {
+          "id": "news/article_03.md::chunk-14",
+          "source": "article_03.md",
+          "chunk_index": 14,
+          "score": 0.4852297943657734,
+          "retrieval_method": "dense",
+          "content": "ham quan. Đặc sản tại nơi đây là các món ăn dân dã như thịt chua, tằm cọ,bánh tai, cơm nắm lá cọ, cọ ỏm chấm mắm và canh cá rau sắn.\n**Hội Lim**\nHội Lim được mệnh danh là lễ hội truyền thống nổi tiếng của tỉnh Bắc Ninh, là hội của các làng xã cổ nằm quanh núi Lim và đôi bờ sông Tiêu Tương, thể hiện được nét văn hóa nghệ thuật và tín ngưỡng tâm linh của nhân dân xứ Kinh Bắc. Mỗi năm, Hội Lim được mở vào ngày 13 tháng Giêng âm lịch, bắt đầu bằng lễ rước với các nghi thức rước, tế lễ các thành hoàn"
+        }
+      ],
+      "generation_seconds": 4.6331,
+      "evaluation_seconds": 2.1218
+    },
+    {
+      "config": "B",
+      "question": "Ban tổ chức Hội Lim bố trí lán Quan họ cho nhóm nào và mục đích là gì?",
+      "expected_answer": "Lán Quan họ dành cho các liền anh, liền chị nhí từ 4 đến 15 tuổi, nhằm tạo sân chơi và góp phần bảo tồn, truyền dạy Quan họ cho thế hệ trẻ.",
+      "expected_context": "data/standardized/news/article_01.md: lán Quan họ dành cho thế hệ măng non",
+      "answer": "Ban tổ chức Hội Lim bố trí lán Quan họ dành cho các “liền anh, liền chị nhí,” tức là các em từ 4-15 tuổi, đang sinh hoạt trong các câu lạc bộ của xã. Mục đích là tạo sân chơi cho các em và giúp bảo tồn, phát huy giá trị di sản văn hóa dân tộc, cũng như lan tỏa tình yêu Quan họ tới thế hệ trẻ (Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the information provided in the retrieved context, addressing both the allocation of the Quan họ tents and their purpose for the youth.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_01.md::chunk-3",
+          "source": "article_01.md",
+          "chunk_index": 3,
+          "score": 0.03278688524590164,
+          "retrieval_method": "hybrid",
+          "content": "h diễn thư pháp, hội thơ, triển lãm tư liệu, hiện vật bảo tồn di sản dân ca Quan họ Bắc Ninh...\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 1.\nNăm nay, Ban tổ chức Hội Lim bố trí thêm lán Quan họ dành cho các “liền anh, liền chị nhí,” tạo sân chơi cho các em từ 4-15 tuổi, đang sinh hoạt trong các câu lạc bộ của xã và được các nghệ nhân truyền dạy những câu hát, lề lối Quan họ.\nĐại diện Ban Tổ chức lễ hội cho biết việc tăng thêm các lán dành cho thế hệ măn"
+        },
+        {
+          "id": "news/article_03.md::chunk-15",
+          "source": "article_03.md",
+          "chunk_index": 15,
+          "score": 0.03225806451612903,
+          "retrieval_method": "hybrid",
+          "content": "rước với các nghi thức rước, tế lễ các thành hoàng các làng, danh thần liệt nữ của quê hương.\nHội Lim quan họ Bắc Ninh\n*Hội Lim quan họ Bắc Ninh*\nNgoài phần lễ, hội còn tổ chức các trò chơi dân gian như đấu võ, đấu cờ, nấu cơm, phần hát hội,… Cách những con người tổ chức hội Lim cũng có nét gì đó rất đặc biệt từ chiếc nón ba tầm, quai thao, dải yếm lụa sồi, khăn đóng,… đến cử chỉ mang gì đó rất tinh tế của người Kinh Bắc. Có lẽ bởi thế, Quan họ đã trở thành văn hóa phi vật thể, nét truyền thống"
+        },
+        {
+          "id": "news/article_01.md::chunk-2",
+          "source": "article_01.md",
+          "chunk_index": 2,
+          "score": 0.03036576949620428,
+          "retrieval_method": "hybrid",
+          "content": "p phần gia tăng giá trị điểm đến, tạo sức hút về du lịch cho địa phương.\n**Nhiều điểm mới trong tổ chức hội Xuân**\nHội Lim (Bắc Ninh) là một trong những lễ hội đầu năm luôn thu hút sự quan tâm của đông đảo du khách gần xa. Năm nay, bên cạnh phần nghi lễ truyền thống, phần hội diễn ra nhiều hoạt động sôi nổi tại trung tâm đồi Lim, hồ điều hòa Vân Tương (thị trấn Lim) và một số khu vực lân cận với phong phú hoạt động trình diễn dân ca Quan họ, trình diễn thư pháp, hội thơ, triển lãm tư liệu, hiện"
+        },
+        {
+          "id": "news/article_01.md::chunk-15",
+          "source": "article_01.md",
+          "chunk_index": 15,
+          "score": 0.015873015873015872,
+          "retrieval_method": "hybrid",
+          "content": "ch đi mục tiêu ban đầu của lễ hội, biến nó thành một sự kiện giải trí đơn thuần mà không còn giữ được bản sắc văn hóa vốn có.\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 5.\n“Việc cân bằng giữa bảo tồn và phát triển là vô cùng quan trọng. Để làm được điều này, chúng ta cần duy trì các yếu tố cốt lõi của lễ hội, từ những nghi thức truyền thống đến không gian tổ chức, đồng thời cho phép sự đổi mới diễn ra nhưng phải phù hợp với bối cảnh văn hóa và tinh thần"
+        },
+        {
+          "id": "news/article_01.md::chunk-4",
+          "source": "article_01.md",
+          "chunk_index": 4,
+          "score": 0.015625,
+          "retrieval_method": "hybrid",
+          "content": "ho biết việc tăng thêm các lán dành cho thế hệ măng non góp phần nhằm bảo tồn, phát huy giá trị di sản văn hóa dân tộc và lan tỏa tình yêu Quan họ tới thế hệ trẻ.\nLễ hội đền Trần Thương (Thái Bình) năm 2025 cũng diễn ra với nhiều hoạt động phong phú như lễ bái yết và dâng hương, lễ rước nước, lễ khai ấn, các hoạt động văn hóa, thể thao, trò chơi dân gian như: thi cỗ cá, gói bánh chưng, pháo đất, têm trầu cánh phượng, kéo lửa nấu cơm, kéo co, cờ tướng, liên hoan hát văn… Đặc biệt, năm nay, chương"
+        }
+      ],
+      "generation_seconds": 2.357,
+      "evaluation_seconds": 3.0689
+    },
+    {
+      "config": "A",
+      "question": "Các biện pháp an ninh tại lễ khai ấn đền Trần Nam Định năm 2025 gồm những nội dung chính nào?",
+      "expected_answer": "Hơn 2.500 cán bộ, chiến sĩ được huy động để bảo đảm an ninh trật tự, an toàn giao thông, phòng chống cháy nổ và xử lý các hành vi như ăn xin, trộm cắp, móc túi.",
+      "expected_context": "data/standardized/news/article_01.md: công tác bảo đảm an ninh tại lễ khai ấn đền Trần",
+      "answer": "Các biện pháp an ninh tại lễ khai ấn đền Trần Nam Định năm 2025 bao gồm: đảm bảo an ninh trật tự, an toàn giao thông, phòng chống cháy nổ, phòng chống tội phạm, ngăn chặn và xử lý triệt để tình trạng ăn xin, trộm cắp, móc túi, nhằm đảm bảo không gian văn hóa văn minh trong khu vực lễ hội (Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the measures mentioned in the retrieved context, directly addressing the question about security measures at the festival.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_01.md::chunk-6",
+          "source": "article_01.md",
+          "chunk_index": 6,
+          "score": 0.6219112862319551,
+          "retrieval_method": "dense",
+          "content": "Nam Định) năm nay có nhiều điểm mới, công tác đảm bảo an ninh trật tự, an toàn và văn minh được chú trọng.\nLễ Khai ấn được chuẩn bị chu đáo, các biện pháp an ninh được thực hiện chặt chẽ, bài bản. Công an tỉnh và Công an thành phố Nam Định huy động hơn 2.500 cán bộ, chiến sỹ thực hiện các phương án đảm bảo an ninh trật tự, an toàn giao thông, phòng chống cháy, nổ; phòng, chống tội phạm, ngăn chặn, xử lý triệt để tình trạng ăn xin, trộm cắp, móc túi, đảm bảo không gian văn hóa văn minh trong khu"
+        },
+        {
+          "id": "news/article_01.md::chunk-5",
+          "source": "article_01.md",
+          "chunk_index": 5,
+          "score": 0.5510443492345345,
+          "retrieval_method": "dense",
+          "content": "ướng, liên hoan hát văn… Đặc biệt, năm nay, chương trình nghệ thuật “Rạng rỡ Thái Bình - Miền Thánh Mẫu, đất Thánh nhân, dấu thiêng Phật pháp” được đầu tư công phu, sáng tạo, có điểm nhấn hơn, vừa giúp du khách hiểu thêm về những câu chuyện văn hóa, lịch sử gắn với vùng đất Thái Bình, vừa mang đến cho du khách nhiều trải nghiệm đáng nhớ.\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 2.\nHội khai ấn đền Trần (Nam Định) năm nay có nhiều điểm mới, công tác đảm"
+        },
+        {
+          "id": "news/article_01.md::chunk-1",
+          "source": "article_01.md",
+          "chunk_index": 1,
+          "score": 0.5102398336059311,
+          "retrieval_method": "dense",
+          "content": "Đến thời điểm này, hàng loạt lễ hội lớn Xuân Ất Tỵ 2025 như Hội chùa Hương, Hội Xuân Yên Tử, Hội Lim, Hội Gióng Đền Sóc, Hội Gò Đống Đa, Hội khai ấn đền Trần… đều đã lần lượt khai mạc, thu hút hàng chục vạn du khách thập phương.\nTheo ghi nhận của Cục Văn hóa cơ sở (Bộ Văn hóa, Thể thao và Du lịch), với nhiều chuyển biến tích cực trong công tác quản lý, các lễ hội không chỉ làm tốt nhiệm vụ bảo tồn những nét văn hóa truyền thống đặc sắc, mà còn góp phần gia tăng giá trị điểm đến, tạo sức hút về d"
+        },
+        {
+          "id": "news/article_01.md::chunk-4",
+          "source": "article_01.md",
+          "chunk_index": 4,
+          "score": 0.509909885169543,
+          "retrieval_method": "dense",
+          "content": "ho biết việc tăng thêm các lán dành cho thế hệ măng non góp phần nhằm bảo tồn, phát huy giá trị di sản văn hóa dân tộc và lan tỏa tình yêu Quan họ tới thế hệ trẻ.\nLễ hội đền Trần Thương (Thái Bình) năm 2025 cũng diễn ra với nhiều hoạt động phong phú như lễ bái yết và dâng hương, lễ rước nước, lễ khai ấn, các hoạt động văn hóa, thể thao, trò chơi dân gian như: thi cỗ cá, gói bánh chưng, pháo đất, têm trầu cánh phượng, kéo lửa nấu cơm, kéo co, cờ tướng, liên hoan hát văn… Đặc biệt, năm nay, chương"
+        },
+        {
+          "id": "news/article_01.md::chunk-7",
+          "source": "article_01.md",
+          "chunk_index": 7,
+          "score": 0.4547170417250661,
+          "retrieval_method": "dense",
+          "content": "úi, đảm bảo không gian văn hóa văn minh trong khu vực lễ hội.\nTheo ông Nguyễn Đức Bình, Trưởng Ban quản lý Khu Di tích lịch sử văn hóa Đền Trần-Chùa Tháp, Ban Tổ chức đã chuẩn bị đầy đủ số lượng ấn để đáp ứng nhu cầu của du khách. Người dân xếp hàng văn minh, trật tự chờ tới lượt.\nTheo Cục Văn hóa cơ sở, công tác quản lý và tổ chức lễ hội tại các địa phương ngày càng đi vào nền nếp. Nhiều “điểm nóng” đã dần hạ nhiệt, đẩy lùi tiêu cực, đặc biệt tại các lễ hội lớn. Có được chuyển biến này nhờ hàng"
+        }
+      ],
+      "generation_seconds": 3.5012,
+      "evaluation_seconds": 2.0326
+    },
+    {
+      "config": "B",
+      "question": "Các biện pháp an ninh tại lễ khai ấn đền Trần Nam Định năm 2025 gồm những nội dung chính nào?",
+      "expected_answer": "Hơn 2.500 cán bộ, chiến sĩ được huy động để bảo đảm an ninh trật tự, an toàn giao thông, phòng chống cháy nổ và xử lý các hành vi như ăn xin, trộm cắp, móc túi.",
+      "expected_context": "data/standardized/news/article_01.md: công tác bảo đảm an ninh tại lễ khai ấn đền Trần",
+      "answer": "Các biện pháp an ninh tại lễ khai ấn đền Trần Nam Định năm 2025 bao gồm: đảm bảo an ninh trật tự, an toàn giao thông, phòng chống cháy nổ, phòng chống tội phạm, ngăn chặn và xử lý triệt để tình trạng ăn xin, trộm cắp, móc túi, nhằm đảm bảo không gian văn hóa văn minh trong khu vực lễ hội (Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the details provided in the retrieved context, directly addressing the question about security measures at the Trần Temple ceremony in 2025.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_01.md::chunk-6",
+          "source": "article_01.md",
+          "chunk_index": 6,
+          "score": 0.03278688524590164,
+          "retrieval_method": "hybrid",
+          "content": "Nam Định) năm nay có nhiều điểm mới, công tác đảm bảo an ninh trật tự, an toàn và văn minh được chú trọng.\nLễ Khai ấn được chuẩn bị chu đáo, các biện pháp an ninh được thực hiện chặt chẽ, bài bản. Công an tỉnh và Công an thành phố Nam Định huy động hơn 2.500 cán bộ, chiến sỹ thực hiện các phương án đảm bảo an ninh trật tự, an toàn giao thông, phòng chống cháy, nổ; phòng, chống tội phạm, ngăn chặn, xử lý triệt để tình trạng ăn xin, trộm cắp, móc túi, đảm bảo không gian văn hóa văn minh trong khu"
+        },
+        {
+          "id": "news/article_01.md::chunk-4",
+          "source": "article_01.md",
+          "chunk_index": 4,
+          "score": 0.03125,
+          "retrieval_method": "hybrid",
+          "content": "ho biết việc tăng thêm các lán dành cho thế hệ măng non góp phần nhằm bảo tồn, phát huy giá trị di sản văn hóa dân tộc và lan tỏa tình yêu Quan họ tới thế hệ trẻ.\nLễ hội đền Trần Thương (Thái Bình) năm 2025 cũng diễn ra với nhiều hoạt động phong phú như lễ bái yết và dâng hương, lễ rước nước, lễ khai ấn, các hoạt động văn hóa, thể thao, trò chơi dân gian như: thi cỗ cá, gói bánh chưng, pháo đất, têm trầu cánh phượng, kéo lửa nấu cơm, kéo co, cờ tướng, liên hoan hát văn… Đặc biệt, năm nay, chương"
+        },
+        {
+          "id": "news/article_01.md::chunk-5",
+          "source": "article_01.md",
+          "chunk_index": 5,
+          "score": 0.031054405392392875,
+          "retrieval_method": "hybrid",
+          "content": "ướng, liên hoan hát văn… Đặc biệt, năm nay, chương trình nghệ thuật “Rạng rỡ Thái Bình - Miền Thánh Mẫu, đất Thánh nhân, dấu thiêng Phật pháp” được đầu tư công phu, sáng tạo, có điểm nhấn hơn, vừa giúp du khách hiểu thêm về những câu chuyện văn hóa, lịch sử gắn với vùng đất Thái Bình, vừa mang đến cho du khách nhiều trải nghiệm đáng nhớ.\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 2.\nHội khai ấn đền Trần (Nam Định) năm nay có nhiều điểm mới, công tác đảm"
+        },
+        {
+          "id": "news/article_01.md::chunk-1",
+          "source": "article_01.md",
+          "chunk_index": 1,
+          "score": 0.031024531024531024,
+          "retrieval_method": "hybrid",
+          "content": "Đến thời điểm này, hàng loạt lễ hội lớn Xuân Ất Tỵ 2025 như Hội chùa Hương, Hội Xuân Yên Tử, Hội Lim, Hội Gióng Đền Sóc, Hội Gò Đống Đa, Hội khai ấn đền Trần… đều đã lần lượt khai mạc, thu hút hàng chục vạn du khách thập phương.\nTheo ghi nhận của Cục Văn hóa cơ sở (Bộ Văn hóa, Thể thao và Du lịch), với nhiều chuyển biến tích cực trong công tác quản lý, các lễ hội không chỉ làm tốt nhiệm vụ bảo tồn những nét văn hóa truyền thống đặc sắc, mà còn góp phần gia tăng giá trị điểm đến, tạo sức hút về d"
+        },
+        {
+          "id": "news/article_02.md::chunk-2",
+          "source": "article_02.md",
+          "chunk_index": 2,
+          "score": 0.030158730158730156,
+          "retrieval_method": "hybrid",
+          "content": "eonewsrelation\nĐây là một trong những nội dung được Bộ Văn hóa, Thể thao và Du lịch giao tại Công văn số 5256/BVHTTDL-VP về việc tổ chức các hoạt động Văn hóa, Thể thao và Du lịch mừng Xuân Quý Mão 2023.\n## **Tăng cường kiểm tra việc tổ chức các hoạt động văn hóa, lễ hội**\nThực hiện Chỉ thị số 19-CT/TW ngày 18/11/2022 của Ban Bí thư về việc tổ chức Tết Quý Mão năm 2023 và Chỉ thị số 22/CT-TTg ngày 23/12/2022 của Thủ tướng Chính phủ về việc tăng cường các biện pháp bảo đảm đón Tết Nguyên đán Quý"
+        }
+      ],
+      "generation_seconds": 2.381,
+      "evaluation_seconds": 4.543
+    },
+    {
+      "config": "A",
+      "question": "Bài viết đề xuất cân bằng giữa bảo tồn truyền thống và đổi mới lễ hội như thế nào?",
+      "expected_answer": "Cần duy trì các yếu tố cốt lõi và sự tham gia của cộng đồng, chuyên gia, cơ quan quản lý, đồng thời cho phép đổi mới phù hợp với bối cảnh văn hóa.",
+      "expected_context": "data/standardized/news/article_01.md: quan điểm về cân bằng bảo tồn và phát triển",
+      "answer": "Bài viết đề xuất rằng việc cân bằng giữa bảo tồn và phát triển lễ hội truyền thống là vô cùng quan trọng. Cần duy trì các yếu tố cốt lõi của lễ hội, từ những nghi thức truyền thống đến không gian tổ chức, đồng thời cho phép sự đổi mới diễn ra nhưng phải phù hợp với bối cảnh văn hóa và tinh thần lễ hội. Sự tham gia của cộng đồng, các chuyên gia văn hóa và các cơ quan quản lý cũng được nhấn mạnh để giám sát quá trình phát triển này, nhằm giữ gìn và phát huy giá trị văn hóa, không chỉ thu hút khách du lịch mà còn giữ được sự kết nối với cội nguồn (Document 1, Document 3).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the key points from the retrieved context, addressing how to balance preservation and innovation in traditional festivals, and it is fully supported by the context provided.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_01.md::chunk-15",
+          "source": "article_01.md",
+          "chunk_index": 15,
+          "score": 0.6799841007076967,
+          "retrieval_method": "dense",
+          "content": "ch đi mục tiêu ban đầu của lễ hội, biến nó thành một sự kiện giải trí đơn thuần mà không còn giữ được bản sắc văn hóa vốn có.\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 5.\n“Việc cân bằng giữa bảo tồn và phát triển là vô cùng quan trọng. Để làm được điều này, chúng ta cần duy trì các yếu tố cốt lõi của lễ hội, từ những nghi thức truyền thống đến không gian tổ chức, đồng thời cho phép sự đổi mới diễn ra nhưng phải phù hợp với bối cảnh văn hóa và tinh thần"
+        },
+        {
+          "id": "news/article_01.md::chunk-12",
+          "source": "article_01.md",
+          "chunk_index": 12,
+          "score": 0.6465119326025628,
+          "retrieval_method": "dense",
+          "content": "gìn và tôn trọng truyền thống bản địa là cần thiết nhưng cũng cần phải có sự giao thoa, hội nhập để phù hợp với sự phát triển của xã hội.\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 4.\n“Một số nghi lễ được xem là linh thiêng, riêng có của lễ hội đang trở nên phản cảm, bạo lực trong mắt cộng đồng tham dự lễ hội. Theo tôi, cần phải có sự điều chỉnh để vừa bảo tồn được di sản, vừa đảm bảo sự văn minh của lễ hội,” ông Dương Văn Sáu nói.\nCụ thể, ông Sáu cho rằ"
+        },
+        {
+          "id": "news/article_01.md::chunk-0",
+          "source": "article_01.md",
+          "chunk_index": 0,
+          "score": 0.6421197782445687,
+          "retrieval_method": "dense",
+          "content": "# Đổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội **Source:** https://bvhttdl.gov.vn/doi-moi-le-hoi-truyen-thong-de-dam-bao-van-minh-nhung-khong-tach-roi-nguon-coi-20250220141658954.htm **Crawled:** 2026-09-20T19:12:31.148373+00:00 **Landing file:** `data/landing/news/article_01.json` ---"
+        },
+        {
+          "id": "news/article_01.md::chunk-10",
+          "source": "article_01.md",
+          "chunk_index": 10,
+          "score": 0.6141435109083927,
+          "retrieval_method": "dense",
+          "content": ", thế nhưng cái khó ở chỗ tìm ra giải pháp cho màn tranh cướp phết đảm bảo an toàn.\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 3.\nTại một số lễ hội có các nghi lễ chọi trâu, đâm trâu, chém lợn…, hiện dư luận và giới chuyên môn vẫn đang băn khoăn làm thế nào để bảo tồn di sản mà vẫn đảm bảo yếu tố văn hóa, lành mạnh, vui tươi của lễ hội.\nChia sẻ với phóng viên Báo Điện tử VietnamPlus, Phó Giáo sư-Tiến sỹ Dương Văn Sáu, Trường Đại học Văn hóa Hà Nội cho rằ"
+        },
+        {
+          "id": "news/article_01.md::chunk-16",
+          "source": "article_01.md",
+          "chunk_index": 16,
+          "score": 0.6007534392348,
+          "retrieval_method": "dense",
+          "content": "ng phải phù hợp với bối cảnh văn hóa và tinh thần lễ hội. Cần có sự tham gia của cộng đồng, các chuyên gia văn hóa và các cơ quan quản lý để giám sát quá trình phát triển này,” ông Bùi Hoài Sơn nói.\nTheo ông, khi phát triển lễ hội, chúng ta phải luôn nhớ rằng mục đích cuối cùng là giữ gìn và phát huy giá trị văn hóa, không chỉ thu hút khách du lịch mà còn giữ được sự kết nối với cội nguồn, với những giá trị vô giá mà lễ hội đã được truyền từ bao đời./.\nThu Feb 20 2025 14:46:12 GMT+0700 (Giờ Đông"
+        }
+      ],
+      "generation_seconds": 2.7023,
+      "evaluation_seconds": 2.4294
+    },
+    {
+      "config": "B",
+      "question": "Bài viết đề xuất cân bằng giữa bảo tồn truyền thống và đổi mới lễ hội như thế nào?",
+      "expected_answer": "Cần duy trì các yếu tố cốt lõi và sự tham gia của cộng đồng, chuyên gia, cơ quan quản lý, đồng thời cho phép đổi mới phù hợp với bối cảnh văn hóa.",
+      "expected_context": "data/standardized/news/article_01.md: quan điểm về cân bằng bảo tồn và phát triển",
+      "answer": "Bài viết đề xuất rằng việc cân bằng giữa bảo tồn và phát triển lễ hội truyền thống là vô cùng quan trọng. Cần duy trì các yếu tố cốt lõi của lễ hội, từ những nghi thức truyền thống đến không gian tổ chức, đồng thời cho phép sự đổi mới diễn ra nhưng phải phù hợp với bối cảnh văn hóa và tinh thần. Ông Dương Văn Sáu cũng nhấn mạnh rằng cần có sự điều chỉnh để vừa bảo tồn được di sản, vừa đảm bảo sự văn minh của lễ hội (Document 2). Yếu tố truyền thống được coi là cái hồn, cội nguồn của lễ hội, trong khi những yếu tố mới, nếu được áp dụng đúng cách, có thể làm cho lễ hội trở nên gần gũi và hấp dẫn hơn với thế hệ trẻ và khách du lịch (Document 3).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the key points from the retrieved context, addressing the balance between tradition and innovation in festivals as outlined in the reference answer.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_01.md::chunk-15",
+          "source": "article_01.md",
+          "chunk_index": 15,
+          "score": 0.03278688524590164,
+          "retrieval_method": "hybrid",
+          "content": "ch đi mục tiêu ban đầu của lễ hội, biến nó thành một sự kiện giải trí đơn thuần mà không còn giữ được bản sắc văn hóa vốn có.\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 5.\n“Việc cân bằng giữa bảo tồn và phát triển là vô cùng quan trọng. Để làm được điều này, chúng ta cần duy trì các yếu tố cốt lõi của lễ hội, từ những nghi thức truyền thống đến không gian tổ chức, đồng thời cho phép sự đổi mới diễn ra nhưng phải phù hợp với bối cảnh văn hóa và tinh thần"
+        },
+        {
+          "id": "news/article_01.md::chunk-10",
+          "source": "article_01.md",
+          "chunk_index": 10,
+          "score": 0.031754032258064516,
+          "retrieval_method": "hybrid",
+          "content": ", thế nhưng cái khó ở chỗ tìm ra giải pháp cho màn tranh cướp phết đảm bảo an toàn.\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 3.\nTại một số lễ hội có các nghi lễ chọi trâu, đâm trâu, chém lợn…, hiện dư luận và giới chuyên môn vẫn đang băn khoăn làm thế nào để bảo tồn di sản mà vẫn đảm bảo yếu tố văn hóa, lành mạnh, vui tươi của lễ hội.\nChia sẻ với phóng viên Báo Điện tử VietnamPlus, Phó Giáo sư-Tiến sỹ Dương Văn Sáu, Trường Đại học Văn hóa Hà Nội cho rằ"
+        },
+        {
+          "id": "news/article_01.md::chunk-12",
+          "source": "article_01.md",
+          "chunk_index": 12,
+          "score": 0.0315136476426799,
+          "retrieval_method": "hybrid",
+          "content": "gìn và tôn trọng truyền thống bản địa là cần thiết nhưng cũng cần phải có sự giao thoa, hội nhập để phù hợp với sự phát triển của xã hội.\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 4.\n“Một số nghi lễ được xem là linh thiêng, riêng có của lễ hội đang trở nên phản cảm, bạo lực trong mắt cộng đồng tham dự lễ hội. Theo tôi, cần phải có sự điều chỉnh để vừa bảo tồn được di sản, vừa đảm bảo sự văn minh của lễ hội,” ông Dương Văn Sáu nói.\nCụ thể, ông Sáu cho rằ"
+        },
+        {
+          "id": "news/article_01.md::chunk-0",
+          "source": "article_01.md",
+          "chunk_index": 0,
+          "score": 0.030798389007344232,
+          "retrieval_method": "hybrid",
+          "content": "# Đổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội **Source:** https://bvhttdl.gov.vn/doi-moi-le-hoi-truyen-thong-de-dam-bao-van-minh-nhung-khong-tach-roi-nguon-coi-20250220141658954.htm **Crawled:** 2026-09-20T19:12:31.148373+00:00 **Landing file:** `data/landing/news/article_01.json` ---"
+        },
+        {
+          "id": "news/article_01.md::chunk-14",
+          "source": "article_01.md",
+          "chunk_index": 14,
+          "score": 0.029857397504456328,
+          "retrieval_method": "hybrid",
+          "content": "dục của Quốc hội cho rằng việc kết hợp giữa yếu tố truyền thống và yếu tố mới trong lễ hội là một điều cần thiết để lễ hội không bị lạc hướng, nhưng cũng phải hết sức thận trọng. Yếu tố truyền thống là cái hồn, là cội nguồn của lễ hội, trong khi những yếu tố mới, nếu được áp dụng đúng cách, có thể làm cho lễ hội trở nên gần gũi và hấp dẫn hơn với thế hệ trẻ và khách du lịch.\nTuy nhiên, nếu không có sự kiểm soát chặt chẽ, yếu tố mới có thể làm lệch đi mục tiêu ban đầu của lễ hội, biến nó thành m"
+        }
+      ],
+      "generation_seconds": 4.3883,
+      "evaluation_seconds": 3.4844
+    },
+    {
+      "config": "A",
+      "question": "Công văn được bài viết của Báo Điện tử Chính phủ nhắc đến yêu cầu tổ chức lễ hội theo nguyên tắc nào?",
+      "expected_answer": "Lễ hội phải đúng bản chất và ý nghĩa lịch sử văn hóa, phù hợp thuần phong mỹ tục; những tập tục không còn phù hợp cần được loại bỏ hoặc thay thế.",
+      "expected_context": "data/standardized/news/article_02.md: Công văn số 5256/BVHTTDL-VP và yêu cầu tổ chức lễ hội",
+      "answer": "Bài viết của Báo Điện tử Chính phủ nhắc đến yêu cầu tổ chức lễ hội theo nguyên tắc \"đúng bản chất, ý nghĩa lịch sử văn hóa, phù hợp thuần phong mỹ tục\" (Document 2).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the principles mentioned in the retrieved context, specifically from Document 2, which states that festivals must align with historical and cultural significance and adhere to traditional customs.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_01.md::chunk-8",
+          "source": "article_01.md",
+          "chunk_index": 8,
+          "score": 0.5771963699914938,
+          "retrieval_method": "dense",
+          "content": "i các lễ hội lớn. Có được chuyển biến này nhờ hàng loạt giải pháp đảm bảo an toàn, lành mạnh, văn minh lễ hội đã được chính quyền các địa phương, Ban quản lý di tích, Ban tổ chức lễ hội triển khai nghiêm túc theo quy định tại Nghị định số 110/2018/NĐ-CP ngày 29/8/2018 của Chính phủ quy định về quản lý và tổ chức lễ hội.\n**Thận trọng khi thực hành nghi lễ**\nTăng cường quản lý là biện pháp hiệu quả để lễ hội diễn ra văn minh, trật tự, tuy nhiên, tại một số địa phương, việc xóa bỏ nghi lễ, hình thứ"
+        },
+        {
+          "id": "news/article_01.md::chunk-16",
+          "source": "article_01.md",
+          "chunk_index": 16,
+          "score": 0.5538723656403481,
+          "retrieval_method": "dense",
+          "content": "ng phải phù hợp với bối cảnh văn hóa và tinh thần lễ hội. Cần có sự tham gia của cộng đồng, các chuyên gia văn hóa và các cơ quan quản lý để giám sát quá trình phát triển này,” ông Bùi Hoài Sơn nói.\nTheo ông, khi phát triển lễ hội, chúng ta phải luôn nhớ rằng mục đích cuối cùng là giữ gìn và phát huy giá trị văn hóa, không chỉ thu hút khách du lịch mà còn giữ được sự kết nối với cội nguồn, với những giá trị vô giá mà lễ hội đã được truyền từ bao đời./.\nThu Feb 20 2025 14:46:12 GMT+0700 (Giờ Đông"
+        },
+        {
+          "id": "news/article_02.md::chunk-4",
+          "source": "article_02.md",
+          "chunk_index": 4,
+          "score": 0.5525527413436907,
+          "retrieval_method": "dense",
+          "content": "người dân, bảo đảm nhân dân được đón Tết vui tươi, đầm ấm, phù hợp với nếp sống văn minh, phong tục, tập quán, truyền thống văn hóa tốt đẹp của dân tộc.\nThanh tra Bộ tăng cường kiểm tra, giám sát việc tổ chức các hoạt động văn hóa, thể thao, du lịch, lễ hội trước, trong và sau Tết Nguyên đán bảo đảm vui tươi, lành mạnh, phù hợp với thuần phong, mỹ tục, ngăn chặn kịp thời các biểu hiện tiêu cực, lợi dụng lễ hội để hoạt động mê tín dị đoan, thu lợi bất chính.\nTổng cục Du lịch chỉ đạo, hướng dẫn c"
+        },
+        {
+          "id": "news/article_02.md::chunk-0",
+          "source": "article_02.md",
+          "chunk_index": 0,
+          "score": 0.5498191373332773,
+          "retrieval_method": "dense",
+          "content": "# Tổ chức lễ hội truyền thống đúng bản chất, ý nghĩa lịch sử văn hóa, phù hợp thuần phong mỹ tục **Source:** https://baochinhphu.vn/to-chuc-le-hoi-truyen-thong-dung-ban-chat-y-nghia-lich-su-van-hoa-phu-hop-thuan-phong-my-tuc-102221230143112759.htm **Crawled:** 2026-09-20T19:12:32.295623+00:00 **Landing file:** `data/landing/news/article_02.json` ---"
+        },
+        {
+          "id": "news/article_01.md::chunk-0",
+          "source": "article_01.md",
+          "chunk_index": 0,
+          "score": 0.5465742969561052,
+          "retrieval_method": "dense",
+          "content": "# Đổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội **Source:** https://bvhttdl.gov.vn/doi-moi-le-hoi-truyen-thong-de-dam-bao-van-minh-nhung-khong-tach-roi-nguon-coi-20250220141658954.htm **Crawled:** 2026-09-20T19:12:31.148373+00:00 **Landing file:** `data/landing/news/article_01.json` ---"
+        }
+      ],
+      "generation_seconds": 3.9253,
+      "evaluation_seconds": 3.6687
+    },
+    {
+      "config": "B",
+      "question": "Công văn được bài viết của Báo Điện tử Chính phủ nhắc đến yêu cầu tổ chức lễ hội theo nguyên tắc nào?",
+      "expected_answer": "Lễ hội phải đúng bản chất và ý nghĩa lịch sử văn hóa, phù hợp thuần phong mỹ tục; những tập tục không còn phù hợp cần được loại bỏ hoặc thay thế.",
+      "expected_context": "data/standardized/news/article_02.md: Công văn số 5256/BVHTTDL-VP và yêu cầu tổ chức lễ hội",
+      "answer": "Công văn được bài viết của Báo Điện tử Chính phủ nhắc đến yêu cầu tổ chức lễ hội theo nguyên tắc đảm bảo các hoạt động lễ hội, vui xuân, kỷ niệm ngày truyền thống thiết thực, an toàn, tiết kiệm, phù hợp với nếp sống văn minh, truyền thống văn hóa của dân tộc và phong tục, tập quán của từng địa phương (Document 2).",
+      "metrics": {
+        "faithfulness": 0.0,
+        "answer_relevance": 0.0,
+        "context_recall": 0.0,
+        "context_precision": 0.0
+      },
+      "justification": "The generated answer does not accurately reflect the principles mentioned in the reference answer regarding the organization of festivals, which specifically emphasize historical and cultural significance and the need to eliminate outdated customs. The context retrieved does not support the claims made in the answer.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_01.md::chunk-8",
+          "source": "article_01.md",
+          "chunk_index": 8,
+          "score": 0.03177805800756621,
+          "retrieval_method": "hybrid",
+          "content": "i các lễ hội lớn. Có được chuyển biến này nhờ hàng loạt giải pháp đảm bảo an toàn, lành mạnh, văn minh lễ hội đã được chính quyền các địa phương, Ban quản lý di tích, Ban tổ chức lễ hội triển khai nghiêm túc theo quy định tại Nghị định số 110/2018/NĐ-CP ngày 29/8/2018 của Chính phủ quy định về quản lý và tổ chức lễ hội.\n**Thận trọng khi thực hành nghi lễ**\nTăng cường quản lý là biện pháp hiệu quả để lễ hội diễn ra văn minh, trật tự, tuy nhiên, tại một số địa phương, việc xóa bỏ nghi lễ, hình thứ"
+        },
+        {
+          "id": "news/article_02.md::chunk-2",
+          "source": "article_02.md",
+          "chunk_index": 2,
+          "score": 0.03128054740957967,
+          "retrieval_method": "hybrid",
+          "content": "eonewsrelation\nĐây là một trong những nội dung được Bộ Văn hóa, Thể thao và Du lịch giao tại Công văn số 5256/BVHTTDL-VP về việc tổ chức các hoạt động Văn hóa, Thể thao và Du lịch mừng Xuân Quý Mão 2023.\n## **Tăng cường kiểm tra việc tổ chức các hoạt động văn hóa, lễ hội**\nThực hiện Chỉ thị số 19-CT/TW ngày 18/11/2022 của Ban Bí thư về việc tổ chức Tết Quý Mão năm 2023 và Chỉ thị số 22/CT-TTg ngày 23/12/2022 của Thủ tướng Chính phủ về việc tăng cường các biện pháp bảo đảm đón Tết Nguyên đán Quý"
+        },
+        {
+          "id": "news/article_02.md::chunk-8",
+          "source": "article_02.md",
+          "chunk_index": 8,
+          "score": 0.02919863597612958,
+          "retrieval_method": "hybrid",
+          "content": "kiểm tra, giám sát việc tổ chức các hoạt động văn hóa, thể thao, du lịch, lễ hội, kinh doanh dịch vụ văn hóa, quảng cáo trong dịp Tết Nguyên đán đảm bảo vui tươi, lành mạnh, phù hợp với thuần phong mỹ tục và phong tục tập quán của từng địa phương.\nThực hiện tốt công tác quản lý và tổ chức lễ hội theo quy định, bảo đảm các hoạt động lễ hội, vui xuân, kỷ niệm ngày truyền thống... thiết thực, an toàn, tiết kiệm, phù hợp với nếp sống văn minh, truyền thống văn hóa của dân tộc và phong tục, tập quán"
+        },
+        {
+          "id": "news/article_02.md::chunk-3",
+          "source": "article_02.md",
+          "chunk_index": 3,
+          "score": 0.01639344262295082,
+          "retrieval_method": "hybrid",
+          "content": "ường các biện pháp bảo đảm đón Tết Nguyên đán Quý Mão vui tươi, lành mạnh, an toàn, tiết kiệm, Bộ Văn hóa, Thể thao và Du lịch yêu cầu các cơ quan, đơn vị thuộc Bộ tổ chức quán triệt, thực hiện nghiêm nội dung chỉ đạo của Ban Bí thư và Thủ tướng Chính phủ.\nCác cơ quan, đơn vị thuộc Bộ tăng cường công tác quản lý nhà nước trong lĩnh vực được giao theo dõi, quản lý; chỉ đạo, tổ chức các hoạt động vui chơi, giải trí lành mạnh, an toàn, tiết kiệm cho người dân, bảo đảm nhân dân được đón Tết vui tươi"
+        },
+        {
+          "id": "news/article_01.md::chunk-16",
+          "source": "article_01.md",
+          "chunk_index": 16,
+          "score": 0.016129032258064516,
+          "retrieval_method": "hybrid",
+          "content": "ng phải phù hợp với bối cảnh văn hóa và tinh thần lễ hội. Cần có sự tham gia của cộng đồng, các chuyên gia văn hóa và các cơ quan quản lý để giám sát quá trình phát triển này,” ông Bùi Hoài Sơn nói.\nTheo ông, khi phát triển lễ hội, chúng ta phải luôn nhớ rằng mục đích cuối cùng là giữ gìn và phát huy giá trị văn hóa, không chỉ thu hút khách du lịch mà còn giữ được sự kết nối với cội nguồn, với những giá trị vô giá mà lễ hội đã được truyền từ bao đời./.\nThu Feb 20 2025 14:46:12 GMT+0700 (Giờ Đông"
+        }
+      ],
+      "generation_seconds": 2.7169,
+      "evaluation_seconds": 3.681
+    },
+    {
+      "config": "A",
+      "question": "Các cơ quan quản lý cần kiểm tra những nguy cơ nào trong hoạt động lễ hội?",
+      "expected_answer": "Cần ngăn chặn việc lợi dụng di tích, lễ hội, tín ngưỡng để trục lợi, mê tín dị đoan, cờ bạc và tổ chức lễ hội tràn lan gây lãng phí.",
+      "expected_context": "data/standardized/news/article_02.md: tăng cường thanh tra, kiểm tra và xử lý vi phạm",
+      "answer": "Các cơ quan quản lý cần kiểm tra và ngăn chặn các hành vi lợi dụng di tích, lễ hội, tín ngưỡng để trục lợi, hoạt động mê tín dị đoan, cờ bạc trong hoạt động lễ hội (Document 3). Họ cũng cần đảm bảo rằng các hoạt động lễ hội diễn ra vui tươi, lành mạnh, phù hợp với thuần phong mỹ tục và không có biểu hiện tiêu cực (Document 4).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the concerns outlined in the context regarding the need to prevent exploitation of festivals and ensure they are conducted in a positive and culturally appropriate manner.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_01.md::chunk-8",
+          "source": "article_01.md",
+          "chunk_index": 8,
+          "score": 0.6516026627936503,
+          "retrieval_method": "dense",
+          "content": "i các lễ hội lớn. Có được chuyển biến này nhờ hàng loạt giải pháp đảm bảo an toàn, lành mạnh, văn minh lễ hội đã được chính quyền các địa phương, Ban quản lý di tích, Ban tổ chức lễ hội triển khai nghiêm túc theo quy định tại Nghị định số 110/2018/NĐ-CP ngày 29/8/2018 của Chính phủ quy định về quản lý và tổ chức lễ hội.\n**Thận trọng khi thực hành nghi lễ**\nTăng cường quản lý là biện pháp hiệu quả để lễ hội diễn ra văn minh, trật tự, tuy nhiên, tại một số địa phương, việc xóa bỏ nghi lễ, hình thứ"
+        },
+        {
+          "id": "news/article_02.md::chunk-8",
+          "source": "article_02.md",
+          "chunk_index": 8,
+          "score": 0.6225207307011357,
+          "retrieval_method": "dense",
+          "content": "kiểm tra, giám sát việc tổ chức các hoạt động văn hóa, thể thao, du lịch, lễ hội, kinh doanh dịch vụ văn hóa, quảng cáo trong dịp Tết Nguyên đán đảm bảo vui tươi, lành mạnh, phù hợp với thuần phong mỹ tục và phong tục tập quán của từng địa phương.\nThực hiện tốt công tác quản lý và tổ chức lễ hội theo quy định, bảo đảm các hoạt động lễ hội, vui xuân, kỷ niệm ngày truyền thống... thiết thực, an toàn, tiết kiệm, phù hợp với nếp sống văn minh, truyền thống văn hóa của dân tộc và phong tục, tập quán"
+        },
+        {
+          "id": "news/article_01.md::chunk-16",
+          "source": "article_01.md",
+          "chunk_index": 16,
+          "score": 0.6203508484018858,
+          "retrieval_method": "dense",
+          "content": "ng phải phù hợp với bối cảnh văn hóa và tinh thần lễ hội. Cần có sự tham gia của cộng đồng, các chuyên gia văn hóa và các cơ quan quản lý để giám sát quá trình phát triển này,” ông Bùi Hoài Sơn nói.\nTheo ông, khi phát triển lễ hội, chúng ta phải luôn nhớ rằng mục đích cuối cùng là giữ gìn và phát huy giá trị văn hóa, không chỉ thu hút khách du lịch mà còn giữ được sự kết nối với cội nguồn, với những giá trị vô giá mà lễ hội đã được truyền từ bao đời./.\nThu Feb 20 2025 14:46:12 GMT+0700 (Giờ Đông"
+        },
+        {
+          "id": "news/article_02.md::chunk-4",
+          "source": "article_02.md",
+          "chunk_index": 4,
+          "score": 0.5981111322615714,
+          "retrieval_method": "dense",
+          "content": "người dân, bảo đảm nhân dân được đón Tết vui tươi, đầm ấm, phù hợp với nếp sống văn minh, phong tục, tập quán, truyền thống văn hóa tốt đẹp của dân tộc.\nThanh tra Bộ tăng cường kiểm tra, giám sát việc tổ chức các hoạt động văn hóa, thể thao, du lịch, lễ hội trước, trong và sau Tết Nguyên đán bảo đảm vui tươi, lành mạnh, phù hợp với thuần phong, mỹ tục, ngăn chặn kịp thời các biểu hiện tiêu cực, lợi dụng lễ hội để hoạt động mê tín dị đoan, thu lợi bất chính.\nTổng cục Du lịch chỉ đạo, hướng dẫn c"
+        },
+        {
+          "id": "news/article_02.md::chunk-9",
+          "source": "article_02.md",
+          "chunk_index": 9,
+          "score": 0.5966380982878723,
+          "retrieval_method": "dense",
+          "content": "thống văn hóa của dân tộc và phong tục, tập quán tốt đẹp của từng địa phương.\nTổ chức lễ hội truyền thống theo đúng bản chất, ý nghĩa lịch sử văn hóa, phù hợp với thuần phong mỹ tục; loại bỏ hoặc thay thế những tập tục không còn phù hợp với xu thế hội nhập và phát triển.\nTăng cường công tác thanh tra, kiểm tra, kịp thời ngăn chặn và xử lý nghiêm các vi phạm, đặc biệt là các hành vi lợi dụng di tích, lễ hội, tín ngưỡng để trục lợi, hoạt động mê tín dị đoan, cờ bạc; tổ chức lễ hội, lễ kỷ niệm trà"
+        }
+      ],
+      "generation_seconds": 3.3329,
+      "evaluation_seconds": 3.3472
+    },
+    {
+      "config": "B",
+      "question": "Các cơ quan quản lý cần kiểm tra những nguy cơ nào trong hoạt động lễ hội?",
+      "expected_answer": "Cần ngăn chặn việc lợi dụng di tích, lễ hội, tín ngưỡng để trục lợi, mê tín dị đoan, cờ bạc và tổ chức lễ hội tràn lan gây lãng phí.",
+      "expected_context": "data/standardized/news/article_02.md: tăng cường thanh tra, kiểm tra và xử lý vi phạm",
+      "answer": "Các cơ quan quản lý cần kiểm tra, giám sát các hoạt động lễ hội để đảm bảo rằng chúng diễn ra vui tươi, lành mạnh, phù hợp với thuần phong mỹ tục và phong tục tập quán của từng địa phương. Cụ thể, cần ngăn chặn kịp thời các biểu hiện tiêu cực, lợi dụng lễ hội để hoạt động mê tín dị đoan và thu lợi bất chính (Document 5).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the concerns outlined in the retrieved context, specifically addressing the need to monitor and prevent negative behaviors during festivals, such as superstition and illegal profit-making.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_02.md::chunk-8",
+          "source": "article_02.md",
+          "chunk_index": 8,
+          "score": 0.03225806451612903,
+          "retrieval_method": "hybrid",
+          "content": "kiểm tra, giám sát việc tổ chức các hoạt động văn hóa, thể thao, du lịch, lễ hội, kinh doanh dịch vụ văn hóa, quảng cáo trong dịp Tết Nguyên đán đảm bảo vui tươi, lành mạnh, phù hợp với thuần phong mỹ tục và phong tục tập quán của từng địa phương.\nThực hiện tốt công tác quản lý và tổ chức lễ hội theo quy định, bảo đảm các hoạt động lễ hội, vui xuân, kỷ niệm ngày truyền thống... thiết thực, an toàn, tiết kiệm, phù hợp với nếp sống văn minh, truyền thống văn hóa của dân tộc và phong tục, tập quán"
+        },
+        {
+          "id": "news/article_02.md::chunk-4",
+          "source": "article_02.md",
+          "chunk_index": 4,
+          "score": 0.03125,
+          "retrieval_method": "hybrid",
+          "content": "người dân, bảo đảm nhân dân được đón Tết vui tươi, đầm ấm, phù hợp với nếp sống văn minh, phong tục, tập quán, truyền thống văn hóa tốt đẹp của dân tộc.\nThanh tra Bộ tăng cường kiểm tra, giám sát việc tổ chức các hoạt động văn hóa, thể thao, du lịch, lễ hội trước, trong và sau Tết Nguyên đán bảo đảm vui tươi, lành mạnh, phù hợp với thuần phong, mỹ tục, ngăn chặn kịp thời các biểu hiện tiêu cực, lợi dụng lễ hội để hoạt động mê tín dị đoan, thu lợi bất chính.\nTổng cục Du lịch chỉ đạo, hướng dẫn c"
+        },
+        {
+          "id": "news/article_01.md::chunk-16",
+          "source": "article_01.md",
+          "chunk_index": 16,
+          "score": 0.030798389007344232,
+          "retrieval_method": "hybrid",
+          "content": "ng phải phù hợp với bối cảnh văn hóa và tinh thần lễ hội. Cần có sự tham gia của cộng đồng, các chuyên gia văn hóa và các cơ quan quản lý để giám sát quá trình phát triển này,” ông Bùi Hoài Sơn nói.\nTheo ông, khi phát triển lễ hội, chúng ta phải luôn nhớ rằng mục đích cuối cùng là giữ gìn và phát huy giá trị văn hóa, không chỉ thu hút khách du lịch mà còn giữ được sự kết nối với cội nguồn, với những giá trị vô giá mà lễ hội đã được truyền từ bao đời./.\nThu Feb 20 2025 14:46:12 GMT+0700 (Giờ Đông"
+        },
+        {
+          "id": "news/article_02.md::chunk-5",
+          "source": "article_02.md",
+          "chunk_index": 5,
+          "score": 0.02857142857142857,
+          "retrieval_method": "hybrid",
+          "content": "i bất chính.\nTổng cục Du lịch chỉ đạo, hướng dẫn các địa phương, các cơ sở kinh doanh dịch vụ du lịch triển khai biện pháp nhằm đảm bảo an toàn cho khách du lịch; tăng cường quản lý, kiểm soát chất lượng kinh doanh dịch vụ du lịch và phương tiện phục vụ khách du lịch, kịp thời xử lý nghiêm các vi phạm.\n### **Tạo nhiều sân chơi bổ ích**phục vụ nhân dân với tinh thần vui tươi, lành mạnh, an toàn, tiết kiệm\nCác Sở Văn hóa, Thể thao và Du lịch; Sở Văn hóa và Thể thao; Sở Du lịch các tỉnh, thành phố"
+        },
+        {
+          "id": "news/article_01.md::chunk-8",
+          "source": "article_01.md",
+          "chunk_index": 8,
+          "score": 0.01639344262295082,
+          "retrieval_method": "hybrid",
+          "content": "i các lễ hội lớn. Có được chuyển biến này nhờ hàng loạt giải pháp đảm bảo an toàn, lành mạnh, văn minh lễ hội đã được chính quyền các địa phương, Ban quản lý di tích, Ban tổ chức lễ hội triển khai nghiêm túc theo quy định tại Nghị định số 110/2018/NĐ-CP ngày 29/8/2018 của Chính phủ quy định về quản lý và tổ chức lễ hội.\n**Thận trọng khi thực hành nghi lễ**\nTăng cường quản lý là biện pháp hiệu quả để lễ hội diễn ra văn minh, trật tự, tuy nhiên, tại một số địa phương, việc xóa bỏ nghi lễ, hình thứ"
+        }
+      ],
+      "generation_seconds": 3.8299,
+      "evaluation_seconds": 2.5576
+    },
+    {
+      "config": "A",
+      "question": "Theo bài viết, việc tổ chức bắn pháo hoa đầu năm phải đáp ứng điều kiện nào?",
+      "expected_answer": "Địa phương quyết định theo tình hình và khả năng thực tế, phải bảo đảm an toàn, tiết kiệm và không sử dụng ngân sách nhà nước.",
+      "expected_context": "data/standardized/news/article_02.md: hướng dẫn quyết định tổ chức bắn pháo hoa",
+      "answer": "Việc tổ chức bắn pháo hoa chào mừng năm mới 2023 và Tết Nguyên đán Quý Mão phải phù hợp với điều kiện, khả năng của địa phương, bảo đảm an toàn, tiết kiệm và không sử dụng ngân sách nhà nước (Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the conditions for organizing fireworks as stated in the retrieved context, directly answering the question.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_02.md::chunk-10",
+          "source": "article_02.md",
+          "chunk_index": 10,
+          "score": 0.679629553053235,
+          "retrieval_method": "dense",
+          "content": "ín dị đoan, cờ bạc; tổ chức lễ hội, lễ kỷ niệm tràn lan gây tốn kém, lãng phí.\nLãnh đạo các địa phương căn cứ vào tình hình thực tiễn, quyết định việc tổ chức bắn pháo hoa chào mừng năm mới 2023 và Tết Nguyên đán Quý Mão phù hợp với điều kiện, khả năng của địa phương, bảo đảm an toàn, tiết kiệm, không sử dụng ngân sách nhà nước.\nFri Dec 30 2022 15:18:15 GMT+0700 (Giờ Đông Dương) -- Fri Dec 30 2022 15:18:15 GMT+0700 (Giờ Đông Dương) -- Fri Dec 30 2022 15:28:32 GMT+0700 (Giờ Đông Dương)"
+        },
+        {
+          "id": "news/article_02.md::chunk-8",
+          "source": "article_02.md",
+          "chunk_index": 8,
+          "score": 0.5427376415010867,
+          "retrieval_method": "dense",
+          "content": "kiểm tra, giám sát việc tổ chức các hoạt động văn hóa, thể thao, du lịch, lễ hội, kinh doanh dịch vụ văn hóa, quảng cáo trong dịp Tết Nguyên đán đảm bảo vui tươi, lành mạnh, phù hợp với thuần phong mỹ tục và phong tục tập quán của từng địa phương.\nThực hiện tốt công tác quản lý và tổ chức lễ hội theo quy định, bảo đảm các hoạt động lễ hội, vui xuân, kỷ niệm ngày truyền thống... thiết thực, an toàn, tiết kiệm, phù hợp với nếp sống văn minh, truyền thống văn hóa của dân tộc và phong tục, tập quán"
+        },
+        {
+          "id": "news/article_02.md::chunk-4",
+          "source": "article_02.md",
+          "chunk_index": 4,
+          "score": 0.5224233978285842,
+          "retrieval_method": "dense",
+          "content": "người dân, bảo đảm nhân dân được đón Tết vui tươi, đầm ấm, phù hợp với nếp sống văn minh, phong tục, tập quán, truyền thống văn hóa tốt đẹp của dân tộc.\nThanh tra Bộ tăng cường kiểm tra, giám sát việc tổ chức các hoạt động văn hóa, thể thao, du lịch, lễ hội trước, trong và sau Tết Nguyên đán bảo đảm vui tươi, lành mạnh, phù hợp với thuần phong, mỹ tục, ngăn chặn kịp thời các biểu hiện tiêu cực, lợi dụng lễ hội để hoạt động mê tín dị đoan, thu lợi bất chính.\nTổng cục Du lịch chỉ đạo, hướng dẫn c"
+        },
+        {
+          "id": "news/article_02.md::chunk-3",
+          "source": "article_02.md",
+          "chunk_index": 3,
+          "score": 0.507485187003502,
+          "retrieval_method": "dense",
+          "content": "ường các biện pháp bảo đảm đón Tết Nguyên đán Quý Mão vui tươi, lành mạnh, an toàn, tiết kiệm, Bộ Văn hóa, Thể thao và Du lịch yêu cầu các cơ quan, đơn vị thuộc Bộ tổ chức quán triệt, thực hiện nghiêm nội dung chỉ đạo của Ban Bí thư và Thủ tướng Chính phủ.\nCác cơ quan, đơn vị thuộc Bộ tăng cường công tác quản lý nhà nước trong lĩnh vực được giao theo dõi, quản lý; chỉ đạo, tổ chức các hoạt động vui chơi, giải trí lành mạnh, an toàn, tiết kiệm cho người dân, bảo đảm nhân dân được đón Tết vui tươi"
+        },
+        {
+          "id": "news/article_02.md::chunk-2",
+          "source": "article_02.md",
+          "chunk_index": 2,
+          "score": 0.5011850539729634,
+          "retrieval_method": "dense",
+          "content": "eonewsrelation\nĐây là một trong những nội dung được Bộ Văn hóa, Thể thao và Du lịch giao tại Công văn số 5256/BVHTTDL-VP về việc tổ chức các hoạt động Văn hóa, Thể thao và Du lịch mừng Xuân Quý Mão 2023.\n## **Tăng cường kiểm tra việc tổ chức các hoạt động văn hóa, lễ hội**\nThực hiện Chỉ thị số 19-CT/TW ngày 18/11/2022 của Ban Bí thư về việc tổ chức Tết Quý Mão năm 2023 và Chỉ thị số 22/CT-TTg ngày 23/12/2022 của Thủ tướng Chính phủ về việc tăng cường các biện pháp bảo đảm đón Tết Nguyên đán Quý"
+        }
+      ],
+      "generation_seconds": 2.458,
+      "evaluation_seconds": 3.7014
+    },
+    {
+      "config": "B",
+      "question": "Theo bài viết, việc tổ chức bắn pháo hoa đầu năm phải đáp ứng điều kiện nào?",
+      "expected_answer": "Địa phương quyết định theo tình hình và khả năng thực tế, phải bảo đảm an toàn, tiết kiệm và không sử dụng ngân sách nhà nước.",
+      "expected_context": "data/standardized/news/article_02.md: hướng dẫn quyết định tổ chức bắn pháo hoa",
+      "answer": "Việc tổ chức bắn pháo hoa chào mừng năm mới 2023 và Tết Nguyên đán Quý Mão phải phù hợp với điều kiện, khả năng của địa phương, bảo đảm an toàn, tiết kiệm và không sử dụng ngân sách nhà nước (Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the requirements for organizing fireworks as stated in the retrieved context, which confirms the conditions of safety, cost-effectiveness, and non-use of state budget.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_02.md::chunk-10",
+          "source": "article_02.md",
+          "chunk_index": 10,
+          "score": 0.03278688524590164,
+          "retrieval_method": "hybrid",
+          "content": "ín dị đoan, cờ bạc; tổ chức lễ hội, lễ kỷ niệm tràn lan gây tốn kém, lãng phí.\nLãnh đạo các địa phương căn cứ vào tình hình thực tiễn, quyết định việc tổ chức bắn pháo hoa chào mừng năm mới 2023 và Tết Nguyên đán Quý Mão phù hợp với điều kiện, khả năng của địa phương, bảo đảm an toàn, tiết kiệm, không sử dụng ngân sách nhà nước.\nFri Dec 30 2022 15:18:15 GMT+0700 (Giờ Đông Dương) -- Fri Dec 30 2022 15:18:15 GMT+0700 (Giờ Đông Dương) -- Fri Dec 30 2022 15:28:32 GMT+0700 (Giờ Đông Dương)"
+        },
+        {
+          "id": "news/article_02.md::chunk-2",
+          "source": "article_02.md",
+          "chunk_index": 2,
+          "score": 0.030309988518943745,
+          "retrieval_method": "hybrid",
+          "content": "eonewsrelation\nĐây là một trong những nội dung được Bộ Văn hóa, Thể thao và Du lịch giao tại Công văn số 5256/BVHTTDL-VP về việc tổ chức các hoạt động Văn hóa, Thể thao và Du lịch mừng Xuân Quý Mão 2023.\n## **Tăng cường kiểm tra việc tổ chức các hoạt động văn hóa, lễ hội**\nThực hiện Chỉ thị số 19-CT/TW ngày 18/11/2022 của Ban Bí thư về việc tổ chức Tết Quý Mão năm 2023 và Chỉ thị số 22/CT-TTg ngày 23/12/2022 của Thủ tướng Chính phủ về việc tăng cường các biện pháp bảo đảm đón Tết Nguyên đán Quý"
+        },
+        {
+          "id": "news/article_02.md::chunk-8",
+          "source": "article_02.md",
+          "chunk_index": 8,
+          "score": 0.016129032258064516,
+          "retrieval_method": "hybrid",
+          "content": "kiểm tra, giám sát việc tổ chức các hoạt động văn hóa, thể thao, du lịch, lễ hội, kinh doanh dịch vụ văn hóa, quảng cáo trong dịp Tết Nguyên đán đảm bảo vui tươi, lành mạnh, phù hợp với thuần phong mỹ tục và phong tục tập quán của từng địa phương.\nThực hiện tốt công tác quản lý và tổ chức lễ hội theo quy định, bảo đảm các hoạt động lễ hội, vui xuân, kỷ niệm ngày truyền thống... thiết thực, an toàn, tiết kiệm, phù hợp với nếp sống văn minh, truyền thống văn hóa của dân tộc và phong tục, tập quán"
+        },
+        {
+          "id": "legal/dan_ca_quan_ho_bac_ninh_di_san_van_hoa_phi_vat_the_dai_dien_cua_nhan_loai.md::chunk-45",
+          "source": "dan_ca_quan_ho_bac_ninh_di_san_van_hoa_phi_vat_the_dai_dien_cua_nhan_loai.md",
+          "chunk_index": 45,
+          "score": 0.016129032258064516,
+          "retrieval_method": "hybrid",
+          "content": "Các nghệ nhân hát Quan họ loại , hệ thống tư liệu để lưu trữ và phục vụ cho\ntheo lối cổ mất dân; không còn việc hát thi lấy việc tíếp cận của cộng đông đối vớí các tư liệu\ngiảị &, các làng Quan họ, khiến cho truyển vê Quan họ Bắc Ninh; tổ chức nghiên cứu vấn\nthống ứng tác các bài ca bị mai một. Bởi vậy; đê bảo tổn và phát triển Quan ho Bắc Nính\nvăn hóa phi vật thể này đặt ra nhiều vẩn đề Thứ tư; tuyên truyển; quảng bá vê Dân ca\ncẩn giải quyết, đòí hỏi chúng ta phải khẩn Quan họ Bắc Ninh trên các"
+        },
+        {
+          "id": "news/article_02.md::chunk-4",
+          "source": "article_02.md",
+          "chunk_index": 4,
+          "score": 0.015873015873015872,
+          "retrieval_method": "hybrid",
+          "content": "người dân, bảo đảm nhân dân được đón Tết vui tươi, đầm ấm, phù hợp với nếp sống văn minh, phong tục, tập quán, truyền thống văn hóa tốt đẹp của dân tộc.\nThanh tra Bộ tăng cường kiểm tra, giám sát việc tổ chức các hoạt động văn hóa, thể thao, du lịch, lễ hội trước, trong và sau Tết Nguyên đán bảo đảm vui tươi, lành mạnh, phù hợp với thuần phong, mỹ tục, ngăn chặn kịp thời các biểu hiện tiêu cực, lợi dụng lễ hội để hoạt động mê tín dị đoan, thu lợi bất chính.\nTổng cục Du lịch chỉ đạo, hướng dẫn c"
+        }
+      ],
+      "generation_seconds": 2.5024,
+      "evaluation_seconds": 2.7621
+    },
+    {
+      "config": "A",
+      "question": "Tục ăn trầu có những ý nghĩa văn hóa nào được bài viết mô tả?",
+      "expected_answer": "Ăn trầu thể hiện sự hiếu khách, tượng trưng cho tình yêu lứa đôi, gắn kết lương duyên và thể hiện lòng thành kính với thế hệ trước.",
+      "expected_context": "data/standardized/news/article_03.md: mục Giao thiệp và tục ăn trầu",
+      "answer": "Tục ăn trầu có những ý nghĩa văn hóa sau được mô tả trong bài viết:\n\n1. **Biểu tượng của sự hiếu khách**: Miếng trầu được coi là \"đầu câu chuyện\", thể hiện sự chào đón và lòng hiếu khách của người Việt Nam (Document 1).\n2. **Tượng trưng cho tình yêu lứa đôi**: Miếng trầu là sợi dây thắt chặt mối lương duyên giữa trai gái (Document 1).\n3. **Thể hiện lòng thành kính với tổ tiên**: Trầu cau thường có mặt trên mâm cỗ thờ cúng tổ tiên, thể hiện sự kính trọng của thế hệ sau với các thế hệ đi trước (Document 5).\n4. **Lưu giữ trong tâm trí người Việt**: Mặc dù tục ăn trầu không còn phổ biến như xưa, nhưng nó vẫn được xem là phong tục tập quán tốt đẹp trong tâm trí người Việt (Document 5).",
+      "metrics": {
+        "faithfulness": 0.0,
+        "answer_relevance": 0.8,
+        "context_recall": 0.8,
+        "context_precision": 0.8
+      },
+      "justification": "The answer partially addresses the question by mentioning cultural meanings of eating betel, but it inaccurately cites Document 5 for points that are actually supported by Documents 1 and 2. The context does provide relevant information, but the answer introduces an unsupported claim about the tradition's popularity.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_03.md::chunk-2",
+          "source": "article_03.md",
+          "chunk_index": 2,
+          "score": 0.735933134906116,
+          "retrieval_method": "dense",
+          "content": "ệp\n**Tục ăn trầu**\nTục ăn trầu là một nét đẹp văn hóa truyền thống của dân tộc\n*Tục ăn trầu là một nét đẹp văn hóa truyền thống của dân tộc*\nTục ăn trầu từ thói quen đã trở thành dấu ấn văn hóa của con người Việt Nam, gắn liền với câu chuyện cổ tích Trầu Cau. Miếng trầu là hình ảnh thân thuộc xuất hiện nhiều trong đời sống sinh hoạt của người dân từ xưa. Các cụ hay nói “Miếng trầu là đầu câu chuyện” thể hiện sự hiếu khách, miếng trầu còn tượng trưng cho tình yêu lứa đôi, là sợi dây thắt chặt mối"
+        },
+        {
+          "id": "news/article_03.md::chunk-3",
+          "source": "article_03.md",
+          "chunk_index": 3,
+          "score": 0.6053384230609845,
+          "retrieval_method": "dense",
+          "content": "ưng cho tình yêu lứa đôi, là sợi dây thắt chặt mối lương duyên trai gái, không những thế còn thể hiện lòng thành kính của thế hệ sau với các thế hệ đi trước nên trên mâm cỗ thờ cúng tổ tiên luôn có trầu cau,… Mặc dù hiện nay tục ăn trầu không còn phổ biến như xưa nhưng đã trở thành phong tục tập quán tốt đẹp mãi lưu giữ trong tâm trí của người Việt.\n**Hút thuốc lào**\nHút thuốc lào chính là nét văn hóa của tầng lớp xã hội làng quê ở thời kỳ phong kiến Việt Nam. Hầu hết nhà nào cũng có sự hiện diệ"
+        },
+        {
+          "id": "news/article_03.md::chunk-1",
+          "source": "article_03.md",
+          "chunk_index": 1,
+          "score": 0.5964789029164917,
+          "retrieval_method": "dense",
+          "content": "Phong tục tập quán của các dân tộc Việt Nam vô cùng phong phú. 54 anh em dân tộc trải dài trên khắp mọi miền đất nước hình chữ S, mỗi dân tộc lại có những nét văn hóa, những phong tục khác nhau. Từ xa xưa, mỗi con người Việt Nam đều gắn bó tha thiết với xóm làng, quê hương trên cơ sở đồng lòng, nhất trí với nhau. Chính vì vậy, phong tục tập quán của Việt Nam đa dạng là thế nhưng chưa bao giờ mất đi những nghi thức cho đến tận bây giờ.\n## Giao thiệp\n**Tục ăn trầu**\nTục ăn trầu là một nét đẹp văn"
+        },
+        {
+          "id": "legal/bao_ton_di_san_van_hoa_phi_vat_the_tu_goc_nhin_toan_cau_hoa.md::chunk-22",
+          "source": "bao_ton_di_san_van_hoa_phi_vat_the_tu_goc_nhin_toan_cau_hoa.md",
+          "chunk_index": 22,
+          "score": 0.5497789742587736,
+          "retrieval_method": "dense",
+          "content": "cuộc sống.\nCa trù Vỉệt Nam, không gian văn hóa Dân ca truyển thống không đơn thuẩn chỉ là nhu cẩu\nquan họ Bắc Ninh, Không gian văn hóa Sử thi mà còn bao hàm cả nhu cẩu thưởng thức cái 'ăn cho no bụng\" hoặc \"sử dụng thật tiện Ích\"\nnghê nghiệp, nhu: Các\nnghi cho phù hợp với nhu cẩu xã hội híện đạl thÌ bằng Iời, viết ra sách hoặc dựa vào sự mô tả\nnăng\ntàng"
+        },
+        {
+          "id": "news/article_01.md::chunk-10",
+          "source": "article_01.md",
+          "chunk_index": 10,
+          "score": 0.4961541181706117,
+          "retrieval_method": "dense",
+          "content": ", thế nhưng cái khó ở chỗ tìm ra giải pháp cho màn tranh cướp phết đảm bảo an toàn.\nĐổi mới lễ hội truyền thống để đảm bảo văn minh nhưng không tách rời nguồn cội - Ảnh 3.\nTại một số lễ hội có các nghi lễ chọi trâu, đâm trâu, chém lợn…, hiện dư luận và giới chuyên môn vẫn đang băn khoăn làm thế nào để bảo tồn di sản mà vẫn đảm bảo yếu tố văn hóa, lành mạnh, vui tươi của lễ hội.\nChia sẻ với phóng viên Báo Điện tử VietnamPlus, Phó Giáo sư-Tiến sỹ Dương Văn Sáu, Trường Đại học Văn hóa Hà Nội cho rằ"
+        }
+      ],
+      "generation_seconds": 3.953,
+      "evaluation_seconds": 4.1922
+    },
+    {
+      "config": "B",
+      "question": "Tục ăn trầu có những ý nghĩa văn hóa nào được bài viết mô tả?",
+      "expected_answer": "Ăn trầu thể hiện sự hiếu khách, tượng trưng cho tình yêu lứa đôi, gắn kết lương duyên và thể hiện lòng thành kính với thế hệ trước.",
+      "expected_context": "data/standardized/news/article_03.md: mục Giao thiệp và tục ăn trầu",
+      "answer": "Tục ăn trầu có những ý nghĩa văn hóa như sau: \n\n1. Tượng trưng cho sự hiếu khách, thể hiện qua câu nói “Miếng trầu là đầu câu chuyện” (Document 1).\n2. Là biểu tượng của tình yêu lứa đôi, được xem như sợi dây thắt chặt mối lương duyên trai gái (Document 5).\n3. Thể hiện lòng thành kính của thế hệ sau đối với các thế hệ đi trước, khi miếng trầu thường có mặt trên mâm cỗ thờ cúng tổ tiên (Document 5).\n\nMặc dù tục ăn trầu không còn phổ biến như trước, nhưng nó vẫn được coi là phong tục tập quán tốt đẹp trong tâm trí người Việt (Document 5).",
+      "metrics": {
+        "faithfulness": 0.0,
+        "answer_relevance": 0.5,
+        "context_recall": 0.5,
+        "context_precision": 0.5
+      },
+      "justification": "The answer partially addresses the question by mentioning cultural meanings of eating betel, but it incorrectly cites Document 5, which does not contain relevant information. The context does support the claims made about hospitality, love, and respect for ancestors, but the answer's reliance on an incorrect document affects its overall faithfulness.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_03.md::chunk-2",
+          "source": "article_03.md",
+          "chunk_index": 2,
+          "score": 0.03278688524590164,
+          "retrieval_method": "hybrid",
+          "content": "ệp\n**Tục ăn trầu**\nTục ăn trầu là một nét đẹp văn hóa truyền thống của dân tộc\n*Tục ăn trầu là một nét đẹp văn hóa truyền thống của dân tộc*\nTục ăn trầu từ thói quen đã trở thành dấu ấn văn hóa của con người Việt Nam, gắn liền với câu chuyện cổ tích Trầu Cau. Miếng trầu là hình ảnh thân thuộc xuất hiện nhiều trong đời sống sinh hoạt của người dân từ xưa. Các cụ hay nói “Miếng trầu là đầu câu chuyện” thể hiện sự hiếu khách, miếng trầu còn tượng trưng cho tình yêu lứa đôi, là sợi dây thắt chặt mối"
+        },
+        {
+          "id": "news/article_03.md::chunk-3",
+          "source": "article_03.md",
+          "chunk_index": 3,
+          "score": 0.03225806451612903,
+          "retrieval_method": "hybrid",
+          "content": "ưng cho tình yêu lứa đôi, là sợi dây thắt chặt mối lương duyên trai gái, không những thế còn thể hiện lòng thành kính của thế hệ sau với các thế hệ đi trước nên trên mâm cỗ thờ cúng tổ tiên luôn có trầu cau,… Mặc dù hiện nay tục ăn trầu không còn phổ biến như xưa nhưng đã trở thành phong tục tập quán tốt đẹp mãi lưu giữ trong tâm trí của người Việt.\n**Hút thuốc lào**\nHút thuốc lào chính là nét văn hóa của tầng lớp xã hội làng quê ở thời kỳ phong kiến Việt Nam. Hầu hết nhà nào cũng có sự hiện diệ"
+        },
+        {
+          "id": "news/article_03.md::chunk-1",
+          "source": "article_03.md",
+          "chunk_index": 1,
+          "score": 0.031746031746031744,
+          "retrieval_method": "hybrid",
+          "content": "Phong tục tập quán của các dân tộc Việt Nam vô cùng phong phú. 54 anh em dân tộc trải dài trên khắp mọi miền đất nước hình chữ S, mỗi dân tộc lại có những nét văn hóa, những phong tục khác nhau. Từ xa xưa, mỗi con người Việt Nam đều gắn bó tha thiết với xóm làng, quê hương trên cơ sở đồng lòng, nhất trí với nhau. Chính vì vậy, phong tục tập quán của Việt Nam đa dạng là thế nhưng chưa bao giờ mất đi những nghi thức cho đến tận bây giờ.\n## Giao thiệp\n**Tục ăn trầu**\nTục ăn trầu là một nét đẹp văn"
+        },
+        {
+          "id": "legal/bao_ton_di_san_van_hoa_phi_vat_the_tu_goc_nhin_toan_cau_hoa.md::chunk-22",
+          "source": "bao_ton_di_san_van_hoa_phi_vat_the_tu_goc_nhin_toan_cau_hoa.md",
+          "chunk_index": 22,
+          "score": 0.030776515151515152,
+          "retrieval_method": "hybrid",
+          "content": "cuộc sống.\nCa trù Vỉệt Nam, không gian văn hóa Dân ca truyển thống không đơn thuẩn chỉ là nhu cẩu\nquan họ Bắc Ninh, Không gian văn hóa Sử thi mà còn bao hàm cả nhu cẩu thưởng thức cái 'ăn cho no bụng\" hoặc \"sử dụng thật tiện Ích\"\nnghê nghiệp, nhu: Các\nnghi cho phù hợp với nhu cẩu xã hội híện đạl thÌ bằng Iời, viết ra sách hoặc dựa vào sự mô tả\nnăng\ntàng"
+        },
+        {
+          "id": "news/article_02.md::chunk-0",
+          "source": "article_02.md",
+          "chunk_index": 0,
+          "score": 0.029211087420042643,
+          "retrieval_method": "hybrid",
+          "content": "# Tổ chức lễ hội truyền thống đúng bản chất, ý nghĩa lịch sử văn hóa, phù hợp thuần phong mỹ tục **Source:** https://baochinhphu.vn/to-chuc-le-hoi-truyen-thong-dung-ban-chat-y-nghia-lich-su-van-hoa-phu-hop-thuan-phong-my-tuc-102221230143112759.htm **Crawled:** 2026-09-20T19:12:32.295623+00:00 **Landing file:** `data/landing/news/article_02.json` ---"
+        }
+      ],
+      "generation_seconds": 4.6904,
+      "evaluation_seconds": 2.8991
+    },
+    {
+      "config": "A",
+      "question": "Tết Đoan Ngọ được tổ chức vào thời điểm nào và có những tục lệ nào?",
+      "expected_answer": "Tết Đoan Ngọ diễn ra vào ngày 5/5 âm lịch, với các tục lệ như giết sâu bọ, tắm nước lá mùi, nhuộm móng và hái thuốc giờ Ngọ.",
+      "expected_context": "data/standardized/news/article_03.md: mục Tết Đoan Ngọ",
+      "answer": "Tết Đoan Ngọ được tổ chức vào ngày 5/5 âm lịch. Trong ngày này có nhiều tục lệ khác nhau như giết sâu bọ, tắm nước lá mùi, nhuộm móng chân – móng tay, và hái thuốc vào giờ Ngọ (citation: Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the information provided in the retrieved context, including the date of Tết Đoan Ngọ and the associated customs.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_03.md::chunk-7",
+          "source": "article_03.md",
+          "chunk_index": 7,
+          "score": 0.7206137867961859,
+          "retrieval_method": "dense",
+          "content": "u hướng về tổ tiên nên con cháu cần về với gia đình để tảo mộ, sửa sang lại ngôi mộ của tổ tiên, đắp đất lên để nấm mồ được đầy đặn, làm sạch cỏ xung quanh và thắp hương, đốt vàng mã, thành tâm khấn cho những người đã mất.\n**Tết Đoan Ngọ**\nTết Đoan Ngọ được tổ chức vào ngày 5/5 âm lịch nhằm đánh dấu một giai đoạn mới mở đầu cho những may mắn, mùa màng được bội thu,… Trong ngày này sẽ có nhiều tục lệ khác nhau như giết sâu bọ, tắm nước lá mùi, nhuộm móng chân – móng tay, hái thuốc vào giờ Ngọ,…\n*"
+        },
+        {
+          "id": "news/article_03.md::chunk-6",
+          "source": "article_03.md",
+          "chunk_index": 6,
+          "score": 0.5738941897288687,
+          "retrieval_method": "dense",
+          "content": "iêu**\nTết Nguyên Tiêu chính là đêm rằm đầu tiên của năm mới. Tùy vào phong tục tập quán của mỗi vùng miền mà mỗi gia đình sẽ có mâm cỗ cúng khác nhau để thể hiện lòng thành kính của con cháu với tổ tiên, ông bà, cầu nguyện một năm mới an lành và nhiều tài lộc.\n**Tết Thanh minh**\n“Thanh minh trong tiết tháng Ba Lễ là tảo mộ, hội là đạp thanh”\n*“Thanh minh trong tiết tháng Ba*\n*Lễ là tảo mộ, hội là đạp thanh”*\nTết Thanh minh (3/3) là dịp để con cháu hướng về tổ tiên nên con cháu cần về với gia đìn"
+        },
+        {
+          "id": "news/article_03.md::chunk-12",
+          "source": "article_03.md",
+          "chunk_index": 12,
+          "score": 0.561522419453018,
+          "retrieval_method": "dense",
+          "content": "2020 là 80.000 đ/người.\n**Lễ hội Đền Hùng**\nLễ hội đền Hùng là nét đẹp truyền thống của dân tộc\n*Lễ hội đền Hùng là nét đẹp truyền thống của dân tộc*\nHội Đền Hùng thường diễn ra từ ngày 1 đến hết ngày 10 tháng 3 âm lịch nhằm tưởng nhớ công ơn dựng nước của các vị vua hùng. Đền Hùng nằm ở trên núi Nghĩa Lĩnh, xã Hy Cương, thành phố Việt Trì của tỉnh Phú Thọ. Lễ bắt đầu bằng việc dâng hương, đồ tế lễ gồm mâm ngũ quả, bánh chưng, bánh dày nhằm nhắc lại sự tích Lang Liêu cũng như nhắc nhở lại công"
+        },
+        {
+          "id": "news/article_03.md::chunk-8",
+          "source": "article_03.md",
+          "chunk_index": 8,
+          "score": 0.5573546801494204,
+          "retrieval_method": "dense",
+          "content": "ộm móng chân – móng tay, hái thuốc vào giờ Ngọ,…\n**Tết trung thu**\nLễ rước đèn vào đêm trung thu\n*Lễ rước đèn vào đêm trung thu*\nTết trung thu được gọi là ngày Tết của thiếu niên, nhi đồng được tổ chức vào rằm tháng tám mỗi năm. Các em thiếu nhi sẽ được rước đèn lồng, phá mâm cỗ và tặng quà,…\n**Tết ông Công ông Táo**\nHay còn được gọi là tết Táo Quân, vào ngày 23 tháng Chạp hằng năm, nhà nào cũng làm lễ cúng để tiễn Táo quân về trời tâu với Ngọc hoàng một năm vừa qua của gia đình mình.\n## Lễ hội"
+        },
+        {
+          "id": "news/article_03.md::chunk-5",
+          "source": "article_03.md",
+          "chunk_index": 5,
+          "score": 0.5424786222343949,
+          "retrieval_method": "dense",
+          "content": "ược trở về sum họp dưới mái ấm, về với cội nguồn, nơi chôn rau cắt rốn.\nCác thành viên trong gia đình quây quần bên mâm cỗ ngày Tết Nguyên Đán\n*Các thành viên trong gia đình quây quần bên mâm cỗ ngày Tết Nguyên Đán*\nTrong đêm giao thừa – thời khắc chuyển giao giữa năm cũ và năm mới, các gia đình sẽ làm lễ thắp hương cúng gia tiên để đón năm mới, tiễn năm cũ qua đi, cầu may mắn, tài lộc và sức khỏe cho các thành viên trong gia đình.\n**Tết Nguyên Tiêu**\nTết Nguyên Tiêu chính là đêm rằm đầu tiên củ"
+        }
+      ],
+      "generation_seconds": 3.7369,
+      "evaluation_seconds": 3.26
+    },
+    {
+      "config": "B",
+      "question": "Tết Đoan Ngọ được tổ chức vào thời điểm nào và có những tục lệ nào?",
+      "expected_answer": "Tết Đoan Ngọ diễn ra vào ngày 5/5 âm lịch, với các tục lệ như giết sâu bọ, tắm nước lá mùi, nhuộm móng và hái thuốc giờ Ngọ.",
+      "expected_context": "data/standardized/news/article_03.md: mục Tết Đoan Ngọ",
+      "answer": "Tết Đoan Ngọ được tổ chức vào ngày 5/5 âm lịch. Trong ngày này có nhiều tục lệ khác nhau như giết sâu bọ, tắm nước lá mùi, nhuộm móng chân – móng tay, và hái thuốc vào giờ Ngọ (citation: Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the information provided in the retrieved context, including the date of Tết Đoan Ngọ and the associated customs, thus it is fully faithful, relevant, and precise.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_03.md::chunk-7",
+          "source": "article_03.md",
+          "chunk_index": 7,
+          "score": 0.03278688524590164,
+          "retrieval_method": "hybrid",
+          "content": "u hướng về tổ tiên nên con cháu cần về với gia đình để tảo mộ, sửa sang lại ngôi mộ của tổ tiên, đắp đất lên để nấm mồ được đầy đặn, làm sạch cỏ xung quanh và thắp hương, đốt vàng mã, thành tâm khấn cho những người đã mất.\n**Tết Đoan Ngọ**\nTết Đoan Ngọ được tổ chức vào ngày 5/5 âm lịch nhằm đánh dấu một giai đoạn mới mở đầu cho những may mắn, mùa màng được bội thu,… Trong ngày này sẽ có nhiều tục lệ khác nhau như giết sâu bọ, tắm nước lá mùi, nhuộm móng chân – móng tay, hái thuốc vào giờ Ngọ,…\n*"
+        },
+        {
+          "id": "news/article_03.md::chunk-8",
+          "source": "article_03.md",
+          "chunk_index": 8,
+          "score": 0.031754032258064516,
+          "retrieval_method": "hybrid",
+          "content": "ộm móng chân – móng tay, hái thuốc vào giờ Ngọ,…\n**Tết trung thu**\nLễ rước đèn vào đêm trung thu\n*Lễ rước đèn vào đêm trung thu*\nTết trung thu được gọi là ngày Tết của thiếu niên, nhi đồng được tổ chức vào rằm tháng tám mỗi năm. Các em thiếu nhi sẽ được rước đèn lồng, phá mâm cỗ và tặng quà,…\n**Tết ông Công ông Táo**\nHay còn được gọi là tết Táo Quân, vào ngày 23 tháng Chạp hằng năm, nhà nào cũng làm lễ cúng để tiễn Táo quân về trời tâu với Ngọc hoàng một năm vừa qua của gia đình mình.\n## Lễ hội"
+        },
+        {
+          "id": "news/article_03.md::chunk-6",
+          "source": "article_03.md",
+          "chunk_index": 6,
+          "score": 0.0315136476426799,
+          "retrieval_method": "hybrid",
+          "content": "iêu**\nTết Nguyên Tiêu chính là đêm rằm đầu tiên của năm mới. Tùy vào phong tục tập quán của mỗi vùng miền mà mỗi gia đình sẽ có mâm cỗ cúng khác nhau để thể hiện lòng thành kính của con cháu với tổ tiên, ông bà, cầu nguyện một năm mới an lành và nhiều tài lộc.\n**Tết Thanh minh**\n“Thanh minh trong tiết tháng Ba Lễ là tảo mộ, hội là đạp thanh”\n*“Thanh minh trong tiết tháng Ba*\n*Lễ là tảo mộ, hội là đạp thanh”*\nTết Thanh minh (3/3) là dịp để con cháu hướng về tổ tiên nên con cháu cần về với gia đìn"
+        },
+        {
+          "id": "news/article_03.md::chunk-25",
+          "source": "article_03.md",
+          "chunk_index": 25,
+          "score": 0.031024531024531024,
+          "retrieval_method": "hybrid",
+          "content": "oc-viet-nam-16.jpg\n*Lễ hội Lam Kinh năm 2020*\nLễ hội được tổ chức vào ngày 22/8 âm lịch hằng năm (ngày mất của vua Lê Lợi) nhằm tôn vinh vua Lê Thái Tổ, người đã có công trong việc đấu tranh giải phóng đất nước ở thế kỷ XV. Địa điểm tổ chức lễ hội tại Đền vua Lê và Đền Bố Vệ của tỉnh Thanh Hóa. Lễ hội Lam Kinh được coi là nét văn hóa cổ kính tạo nên bản sắc của dân tộc.\nTrên đây là những phong tục tập quán đặc trưng, những lễ hội nổi bật đến từ các vùng miền khác nhau trên khắp đất nước. Có thể"
+        },
+        {
+          "id": "news/article_02.md::chunk-10",
+          "source": "article_02.md",
+          "chunk_index": 10,
+          "score": 0.02857142857142857,
+          "retrieval_method": "hybrid",
+          "content": "ín dị đoan, cờ bạc; tổ chức lễ hội, lễ kỷ niệm tràn lan gây tốn kém, lãng phí.\nLãnh đạo các địa phương căn cứ vào tình hình thực tiễn, quyết định việc tổ chức bắn pháo hoa chào mừng năm mới 2023 và Tết Nguyên đán Quý Mão phù hợp với điều kiện, khả năng của địa phương, bảo đảm an toàn, tiết kiệm, không sử dụng ngân sách nhà nước.\nFri Dec 30 2022 15:18:15 GMT+0700 (Giờ Đông Dương) -- Fri Dec 30 2022 15:18:15 GMT+0700 (Giờ Đông Dương) -- Fri Dec 30 2022 15:28:32 GMT+0700 (Giờ Đông Dương)"
+        }
+      ],
+      "generation_seconds": 2.395,
+      "evaluation_seconds": 2.6655
+    },
+    {
+      "config": "A",
+      "question": "Tết Trung thu được mô tả là ngày Tết dành cho ai và trẻ em thường làm gì?",
+      "expected_answer": "Tết Trung thu là Tết của thiếu niên, nhi đồng; các em thường rước đèn lồng, phá cỗ và được tặng quà.",
+      "expected_context": "data/standardized/news/article_03.md: mục Tết trung thu",
+      "answer": "Tết Trung thu được mô tả là ngày Tết của thiếu niên, nhi đồng. Trong ngày này, các em thiếu nhi thường rước đèn lồng, phá mâm cỗ và tặng quà (citation: Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the information provided in the retrieved context, directly addressing the question about Tết Trung thu and the activities of children during this festival.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_03.md::chunk-8",
+          "source": "article_03.md",
+          "chunk_index": 8,
+          "score": 0.6267678838858347,
+          "retrieval_method": "dense",
+          "content": "ộm móng chân – móng tay, hái thuốc vào giờ Ngọ,…\n**Tết trung thu**\nLễ rước đèn vào đêm trung thu\n*Lễ rước đèn vào đêm trung thu*\nTết trung thu được gọi là ngày Tết của thiếu niên, nhi đồng được tổ chức vào rằm tháng tám mỗi năm. Các em thiếu nhi sẽ được rước đèn lồng, phá mâm cỗ và tặng quà,…\n**Tết ông Công ông Táo**\nHay còn được gọi là tết Táo Quân, vào ngày 23 tháng Chạp hằng năm, nhà nào cũng làm lễ cúng để tiễn Táo quân về trời tâu với Ngọc hoàng một năm vừa qua của gia đình mình.\n## Lễ hội"
+        },
+        {
+          "id": "news/article_03.md::chunk-6",
+          "source": "article_03.md",
+          "chunk_index": 6,
+          "score": 0.5558502181274833,
+          "retrieval_method": "dense",
+          "content": "iêu**\nTết Nguyên Tiêu chính là đêm rằm đầu tiên của năm mới. Tùy vào phong tục tập quán của mỗi vùng miền mà mỗi gia đình sẽ có mâm cỗ cúng khác nhau để thể hiện lòng thành kính của con cháu với tổ tiên, ông bà, cầu nguyện một năm mới an lành và nhiều tài lộc.\n**Tết Thanh minh**\n“Thanh minh trong tiết tháng Ba Lễ là tảo mộ, hội là đạp thanh”\n*“Thanh minh trong tiết tháng Ba*\n*Lễ là tảo mộ, hội là đạp thanh”*\nTết Thanh minh (3/3) là dịp để con cháu hướng về tổ tiên nên con cháu cần về với gia đìn"
+        },
+        {
+          "id": "news/article_03.md::chunk-4",
+          "source": "article_03.md",
+          "chunk_index": 4,
+          "score": 0.5417146841535126,
+          "retrieval_method": "dense",
+          "content": "kiến Việt Nam. Hầu hết nhà nào cũng có sự hiện diện của thuốc lào. Nếu “miếng trầu là đầu câu chuyện” thì hút thuốc lào là “khúc dạo đầu” cho những cuộc tương phùng, hội ngộ.\n## Lễ tết\nNgày tết lớn nhất trong năm chính là Tết Nguyên Đán. Ngoài ra, còn nhiều những ngày lễ, tết đặc trưng khác.\n**Tết Nguyên Đán**\nTết Nguyên Đán được người dân Việt Nam gọi là Tết ta để phân biệt với Tết dương lịch. Mỗi năm khi Tết đến, mọi thành viên trong gia đình được trở về sum họp dưới mái ấm, về với cội nguồn,"
+        },
+        {
+          "id": "news/article_03.md::chunk-5",
+          "source": "article_03.md",
+          "chunk_index": 5,
+          "score": 0.5309748500526438,
+          "retrieval_method": "dense",
+          "content": "ược trở về sum họp dưới mái ấm, về với cội nguồn, nơi chôn rau cắt rốn.\nCác thành viên trong gia đình quây quần bên mâm cỗ ngày Tết Nguyên Đán\n*Các thành viên trong gia đình quây quần bên mâm cỗ ngày Tết Nguyên Đán*\nTrong đêm giao thừa – thời khắc chuyển giao giữa năm cũ và năm mới, các gia đình sẽ làm lễ thắp hương cúng gia tiên để đón năm mới, tiễn năm cũ qua đi, cầu may mắn, tài lộc và sức khỏe cho các thành viên trong gia đình.\n**Tết Nguyên Tiêu**\nTết Nguyên Tiêu chính là đêm rằm đầu tiên củ"
+        },
+        {
+          "id": "news/article_03.md::chunk-7",
+          "source": "article_03.md",
+          "chunk_index": 7,
+          "score": 0.5296291848699616,
+          "retrieval_method": "dense",
+          "content": "u hướng về tổ tiên nên con cháu cần về với gia đình để tảo mộ, sửa sang lại ngôi mộ của tổ tiên, đắp đất lên để nấm mồ được đầy đặn, làm sạch cỏ xung quanh và thắp hương, đốt vàng mã, thành tâm khấn cho những người đã mất.\n**Tết Đoan Ngọ**\nTết Đoan Ngọ được tổ chức vào ngày 5/5 âm lịch nhằm đánh dấu một giai đoạn mới mở đầu cho những may mắn, mùa màng được bội thu,… Trong ngày này sẽ có nhiều tục lệ khác nhau như giết sâu bọ, tắm nước lá mùi, nhuộm móng chân – móng tay, hái thuốc vào giờ Ngọ,…\n*"
+        }
+      ],
+      "generation_seconds": 3.8625,
+      "evaluation_seconds": 2.5661
+    },
+    {
+      "config": "B",
+      "question": "Tết Trung thu được mô tả là ngày Tết dành cho ai và trẻ em thường làm gì?",
+      "expected_answer": "Tết Trung thu là Tết của thiếu niên, nhi đồng; các em thường rước đèn lồng, phá cỗ và được tặng quà.",
+      "expected_context": "data/standardized/news/article_03.md: mục Tết trung thu",
+      "answer": "Tết Trung thu được gọi là ngày Tết của thiếu niên, nhi đồng. Trong ngày này, các em thiếu nhi sẽ được rước đèn lồng, phá mâm cỗ và tặng quà (Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the information provided in the retrieved context, directly addressing the question about Tết Trung thu and what children do during this festival.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_03.md::chunk-8",
+          "source": "article_03.md",
+          "chunk_index": 8,
+          "score": 0.03278688524590164,
+          "retrieval_method": "hybrid",
+          "content": "ộm móng chân – móng tay, hái thuốc vào giờ Ngọ,…\n**Tết trung thu**\nLễ rước đèn vào đêm trung thu\n*Lễ rước đèn vào đêm trung thu*\nTết trung thu được gọi là ngày Tết của thiếu niên, nhi đồng được tổ chức vào rằm tháng tám mỗi năm. Các em thiếu nhi sẽ được rước đèn lồng, phá mâm cỗ và tặng quà,…\n**Tết ông Công ông Táo**\nHay còn được gọi là tết Táo Quân, vào ngày 23 tháng Chạp hằng năm, nhà nào cũng làm lễ cúng để tiễn Táo quân về trời tâu với Ngọc hoàng một năm vừa qua của gia đình mình.\n## Lễ hội"
+        },
+        {
+          "id": "news/article_03.md::chunk-4",
+          "source": "article_03.md",
+          "chunk_index": 4,
+          "score": 0.03200204813108039,
+          "retrieval_method": "hybrid",
+          "content": "kiến Việt Nam. Hầu hết nhà nào cũng có sự hiện diện của thuốc lào. Nếu “miếng trầu là đầu câu chuyện” thì hút thuốc lào là “khúc dạo đầu” cho những cuộc tương phùng, hội ngộ.\n## Lễ tết\nNgày tết lớn nhất trong năm chính là Tết Nguyên Đán. Ngoài ra, còn nhiều những ngày lễ, tết đặc trưng khác.\n**Tết Nguyên Đán**\nTết Nguyên Đán được người dân Việt Nam gọi là Tết ta để phân biệt với Tết dương lịch. Mỗi năm khi Tết đến, mọi thành viên trong gia đình được trở về sum họp dưới mái ấm, về với cội nguồn,"
+        },
+        {
+          "id": "news/article_03.md::chunk-5",
+          "source": "article_03.md",
+          "chunk_index": 5,
+          "score": 0.03149801587301587,
+          "retrieval_method": "hybrid",
+          "content": "ược trở về sum họp dưới mái ấm, về với cội nguồn, nơi chôn rau cắt rốn.\nCác thành viên trong gia đình quây quần bên mâm cỗ ngày Tết Nguyên Đán\n*Các thành viên trong gia đình quây quần bên mâm cỗ ngày Tết Nguyên Đán*\nTrong đêm giao thừa – thời khắc chuyển giao giữa năm cũ và năm mới, các gia đình sẽ làm lễ thắp hương cúng gia tiên để đón năm mới, tiễn năm cũ qua đi, cầu may mắn, tài lộc và sức khỏe cho các thành viên trong gia đình.\n**Tết Nguyên Tiêu**\nTết Nguyên Tiêu chính là đêm rằm đầu tiên củ"
+        },
+        {
+          "id": "legal/vai_suy_nghi_khac_ve_le_hoi_truyen_thong.md::chunk-18",
+          "source": "vai_suy_nghi_khac_ve_le_hoi_truyen_thong.md",
+          "chunk_index": 18,
+          "score": 0.030776515151515152,
+          "retrieval_method": "hybrid",
+          "content": "ột đặc điểm được quy định bởi ljch sử, coi như ngày Tết của dòng họ trong làng- ấỵ\ntrong đó, nổi bật là vấn để tổ chức xã hội. Ngày hội; sự thăm hỏi và nhận họ hàng đã tạo\nTrong tư duy của người dân Việt thường lấy chữ nên mối thương yêu, đùm bọc chặt chẽ hơn;\nHòa làm trọng, muốn hòa với cả tự nhiệnIvũ trụ Tác dụng của ngày hộỉ đối với dòng họ không\nvà tất nhiên muốn hòa với cả thẩn linh. Tư duy đơn giản chỉ để tìm vinh quang của dòng họ\nnày không bị sự phân hóa xã hội cao ảnh mình trước cộng 'đ"
+        },
+        {
+          "id": "news/article_03.md::chunk-7",
+          "source": "article_03.md",
+          "chunk_index": 7,
+          "score": 0.02967032967032967,
+          "retrieval_method": "hybrid",
+          "content": "u hướng về tổ tiên nên con cháu cần về với gia đình để tảo mộ, sửa sang lại ngôi mộ của tổ tiên, đắp đất lên để nấm mồ được đầy đặn, làm sạch cỏ xung quanh và thắp hương, đốt vàng mã, thành tâm khấn cho những người đã mất.\n**Tết Đoan Ngọ**\nTết Đoan Ngọ được tổ chức vào ngày 5/5 âm lịch nhằm đánh dấu một giai đoạn mới mở đầu cho những may mắn, mùa màng được bội thu,… Trong ngày này sẽ có nhiều tục lệ khác nhau như giết sâu bọ, tắm nước lá mùi, nhuộm móng chân – móng tay, hái thuốc vào giờ Ngọ,…\n*"
+        }
+      ],
+      "generation_seconds": 2.3557,
+      "evaluation_seconds": 3.6639
+    },
+    {
+      "config": "A",
+      "question": "Áo dài Việt Nam có nguồn gốc và hai dạng phổ biến nào theo bài viết Canifa?",
+      "expected_answer": "Áo dài bắt nguồn từ áo ngũ thân thời Nguyễn và hiện có áo dài truyền thống cùng áo dài cách tân.",
+      "expected_context": "data/standardized/news/article_04.md: mục Áo dài - biểu tượng quốc gia",
+      "answer": "Áo dài Việt Nam có nguồn gốc bắt đầu từ áo ngũ thân thời Nguyễn và đã được cải tiến qua nhiều giai đoạn để trở nên ôm dáng, mềm mại như hiện nay. Hai dạng phổ biến của áo dài là áo dài truyền thống và áo dài cách tân (Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the information found in the retrieved context, including the origin of the áo dài and its two popular forms, making it both relevant and faithful.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_04.md::chunk-2",
+          "source": "article_04.md",
+          "chunk_index": 2,
+          "score": 0.6120373178228564,
+          "retrieval_method": "dense",
+          "content": "trang phục truyền thống vẫn được gìn giữ và xuất hiện phổ biến trong đời sống. Cùng tìm hiểu ngay nhé.\n### **Áo dài – biểu tượng quốc gia**\nÁo dài là trang phục truyền thống tiêu biểu của Việt Nam, gắn liền với hình ảnh duyên dáng và thanh lịch của người phụ nữ. Nguồn gốc áo dài bắt đầu từ áo ngũ thân thời Nguyễn, sau đó được cải tiến qua nhiều giai đoạn để trở nên ôm dáng, mềm mại như hiện nay. Áo dài có hai dạng phổ biến là áo dài truyền thống và áo dài cách tân.\ntrang phục truyền thống việt"
+        },
+        {
+          "id": "news/article_05.md::chunk-5",
+          "source": "article_05.md",
+          "chunk_index": 5,
+          "score": 0.5613938361629806,
+          "retrieval_method": "dense",
+          "content": "i mặc.\nhttps://trangphuchonghanh.com/files/sanpham/3235/1/jpg/ao-dai-nam-202.jpg\n*Ngày xưa nam giới vẫn thường mặc áo dài*\n> Xem thêm: Các mẫu[**Thuê Áo Dài Nam**](https://trangphuchonghanh.com/ao-dai-nam-d61.html)\n[***Áo tứ thân***](https://trangphuchonghanh.com/ao-tu-than-d18.html)là một trong những trang phục truyền thống lâu đời của người con gái miền Bắc, mang trong mình những giá trị văn hóa và đức tính tốt đẹp của người phụ nữ Việt Nam. Áo được thiết kế với bốn tà áo, tượng trưng cho tứ t"
+        },
+        {
+          "id": "news/article_05.md::chunk-3",
+          "source": "article_05.md",
+          "chunk_index": 3,
+          "score": 0.5611194319983466,
+          "retrieval_method": "dense",
+          "content": "mà còn là hiện thân của bản sắc văn hóa dân tộc. Trước đây, áo dài được cả nam và nữ mặc trong các dịp thường nhật, nhưng ngày nay, trang phục này chủ yếu được phụ nữ lựa chọn trong các sự kiện quan trọng như lễ Tết, đám cưới, hay các dịp trang trọng khác.\n> 👩‍🦰 Mời các nàng ghé xem thêm[Khám phá 100+ Mẫu Áo Dài Cách Tân Đẹp Nhất Hiện Nay](https://trangphuchonghanh.com/kham-pha-100-mau-ao-dai-cach-tan-dep-nhat-hien-nay-bid71.html)***👈**Bấm vào đây nhé !!*\nao-dai-cach-tan-nu-suong\n*Áo dài - Trang"
+        },
+        {
+          "id": "news/article_04.md::chunk-1",
+          "source": "article_04.md",
+          "chunk_index": 1,
+          "score": 0.5584677189605911,
+          "retrieval_method": "dense",
+          "content": "***Trang phục truyền thống Việt Nam****là một phần không thể tách rời trong dòng chảy văn hóa dân tộc qua nhiều thế hệ. Không chỉ mang giá trị lịch sử, những bộ trang phục này còn phản ánh rõ nét thẩm mỹ, lối sống và bản sắc riêng của con người Việt trong từng thời kỳ. Hãy cùng*[***Canifa***](https://canifa.com/)*tìm hiểu kỹ hơn qua bài viết sau nhé.*\n## **Các loại trang phục truyền thống Việt Nam phổ biến hiện nay**\nDù xã hội ngày càng hiện đại, trang phục truyền thống vẫn được gìn giữ và xuất"
+        },
+        {
+          "id": "news/article_04.md::chunk-18",
+          "source": "article_04.md",
+          "chunk_index": 18,
+          "score": 0.5471978876646819,
+          "retrieval_method": "dense",
+          "content": "ng phục của các dân tộc thiểu số. Mỗi loại trang phục mang đặc trưng riêng về kiểu dáng, chất liệu và ý nghĩa văn hóa.\nTrang phục truyền thống Việt Nam rất đa dạng\nTrang phục truyền thống Việt Nam rất đa dạng\n### **Trang phục nào phổ biến nhất?**\nÁo dài là trang phục truyền thống phổ biến và được xem như biểu tượng quốc gia của Việt Nam. Đây là trang phục xuất hiện rộng rãi trong các dịp lễ, sự kiện và cả trong đời sống hiện đại.\n### **Khi nào nên mặc trang phục truyền thống?**\nTrang phục truyền"
+        }
+      ],
+      "generation_seconds": 3.3747,
+      "evaluation_seconds": 2.5879
+    },
+    {
+      "config": "B",
+      "question": "Áo dài Việt Nam có nguồn gốc và hai dạng phổ biến nào theo bài viết Canifa?",
+      "expected_answer": "Áo dài bắt nguồn từ áo ngũ thân thời Nguyễn và hiện có áo dài truyền thống cùng áo dài cách tân.",
+      "expected_context": "data/standardized/news/article_04.md: mục Áo dài - biểu tượng quốc gia",
+      "answer": "Áo dài Việt Nam có nguồn gốc từ áo ngũ thân thời Nguyễn và đã được cải tiến qua nhiều giai đoạn để trở nên ôm dáng, mềm mại như hiện nay. Hai dạng phổ biến của áo dài là áo dài truyền thống và áo dài cách tân (Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the information provided in the retrieved context, specifically mentioning the origin of áo dài and its two popular forms.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_04.md::chunk-2",
+          "source": "article_04.md",
+          "chunk_index": 2,
+          "score": 0.03278688524590164,
+          "retrieval_method": "hybrid",
+          "content": "trang phục truyền thống vẫn được gìn giữ và xuất hiện phổ biến trong đời sống. Cùng tìm hiểu ngay nhé.\n### **Áo dài – biểu tượng quốc gia**\nÁo dài là trang phục truyền thống tiêu biểu của Việt Nam, gắn liền với hình ảnh duyên dáng và thanh lịch của người phụ nữ. Nguồn gốc áo dài bắt đầu từ áo ngũ thân thời Nguyễn, sau đó được cải tiến qua nhiều giai đoạn để trở nên ôm dáng, mềm mại như hiện nay. Áo dài có hai dạng phổ biến là áo dài truyền thống và áo dài cách tân.\ntrang phục truyền thống việt"
+        },
+        {
+          "id": "news/article_04.md::chunk-18",
+          "source": "article_04.md",
+          "chunk_index": 18,
+          "score": 0.0315136476426799,
+          "retrieval_method": "hybrid",
+          "content": "ng phục của các dân tộc thiểu số. Mỗi loại trang phục mang đặc trưng riêng về kiểu dáng, chất liệu và ý nghĩa văn hóa.\nTrang phục truyền thống Việt Nam rất đa dạng\nTrang phục truyền thống Việt Nam rất đa dạng\n### **Trang phục nào phổ biến nhất?**\nÁo dài là trang phục truyền thống phổ biến và được xem như biểu tượng quốc gia của Việt Nam. Đây là trang phục xuất hiện rộng rãi trong các dịp lễ, sự kiện và cả trong đời sống hiện đại.\n### **Khi nào nên mặc trang phục truyền thống?**\nTrang phục truyền"
+        },
+        {
+          "id": "news/article_04.md::chunk-1",
+          "source": "article_04.md",
+          "chunk_index": 1,
+          "score": 0.031009615384615385,
+          "retrieval_method": "hybrid",
+          "content": "***Trang phục truyền thống Việt Nam****là một phần không thể tách rời trong dòng chảy văn hóa dân tộc qua nhiều thế hệ. Không chỉ mang giá trị lịch sử, những bộ trang phục này còn phản ánh rõ nét thẩm mỹ, lối sống và bản sắc riêng của con người Việt trong từng thời kỳ. Hãy cùng*[***Canifa***](https://canifa.com/)*tìm hiểu kỹ hơn qua bài viết sau nhé.*\n## **Các loại trang phục truyền thống Việt Nam phổ biến hiện nay**\nDù xã hội ngày càng hiện đại, trang phục truyền thống vẫn được gìn giữ và xuất"
+        },
+        {
+          "id": "news/article_05.md::chunk-5",
+          "source": "article_05.md",
+          "chunk_index": 5,
+          "score": 0.016129032258064516,
+          "retrieval_method": "hybrid",
+          "content": "i mặc.\nhttps://trangphuchonghanh.com/files/sanpham/3235/1/jpg/ao-dai-nam-202.jpg\n*Ngày xưa nam giới vẫn thường mặc áo dài*\n> Xem thêm: Các mẫu[**Thuê Áo Dài Nam**](https://trangphuchonghanh.com/ao-dai-nam-d61.html)\n[***Áo tứ thân***](https://trangphuchonghanh.com/ao-tu-than-d18.html)là một trong những trang phục truyền thống lâu đời của người con gái miền Bắc, mang trong mình những giá trị văn hóa và đức tính tốt đẹp của người phụ nữ Việt Nam. Áo được thiết kế với bốn tà áo, tượng trưng cho tứ t"
+        },
+        {
+          "id": "news/article_05.md::chunk-3",
+          "source": "article_05.md",
+          "chunk_index": 3,
+          "score": 0.015873015873015872,
+          "retrieval_method": "hybrid",
+          "content": "mà còn là hiện thân của bản sắc văn hóa dân tộc. Trước đây, áo dài được cả nam và nữ mặc trong các dịp thường nhật, nhưng ngày nay, trang phục này chủ yếu được phụ nữ lựa chọn trong các sự kiện quan trọng như lễ Tết, đám cưới, hay các dịp trang trọng khác.\n> 👩‍🦰 Mời các nàng ghé xem thêm[Khám phá 100+ Mẫu Áo Dài Cách Tân Đẹp Nhất Hiện Nay](https://trangphuchonghanh.com/kham-pha-100-mau-ao-dai-cach-tan-dep-nhat-hien-nay-bid71.html)***👈**Bấm vào đây nhé !!*\nao-dai-cach-tan-nu-suong\n*Áo dài - Trang"
+        }
+      ],
+      "generation_seconds": 2.5144,
+      "evaluation_seconds": 3.4953
+    },
+    {
+      "config": "A",
+      "question": "Áo tứ thân có cấu trúc và phụ kiện đặc trưng nào?",
+      "expected_answer": "Áo tứ thân gồm bốn thân áo, buộc phía trước, mặc cùng yếm và váy dài; phụ kiện gồm nón quai thao, thắt lưng lụa và khăn mỏ quạ.",
+      "expected_context": "data/standardized/news/article_04.md: mục Áo tứ thân - nét đẹp Bắc Bộ xưa",
+      "answer": "Áo tứ thân có cấu trúc gồm bốn thân áo, buộc lại phía trước, bên trong mặc yếm và váy dài. Đi kèm với áo tứ thân là các phụ kiện đặc trưng như nón quai thao, thắt lưng lụa nhiều màu và khăn mỏ quạ (Document 5).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the structure and accessories of the áo tứ thân as described in the retrieved context, fully supporting the claims made in the reference answer.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_05.md::chunk-6",
+          "source": "article_05.md",
+          "chunk_index": 6,
+          "score": 0.6913972777383992,
+          "retrieval_method": "dense",
+          "content": "được thiết kế với bốn tà áo, tượng trưng cho tứ thân phụ mẫu: bố mẹ đẻ và bố mẹ chồng. Vạt cụt (phần yếm) ở trong hai vạt áo thể hiện sự che chở, bảo vệ của bố mẹ đối với con gái. Năm nút áo được đính cân xứng, đại diện cho năm đức tính: nhân, lễ, nghĩa, trí, tín. Hai vạt áo trước buộc lại với nhau, biểu trưng cho tình cảm vợ chồng luôn gắn bó, keo sơn.\nhttps://trangphuchonghanh.com/files/sanpham/3551/1/jpg/ao-tu-than-truyen-thong-nau-vat-xanh-132.jpg\n*Áo tứ thân là trang phục truуền thống và c"
+        },
+        {
+          "id": "news/article_04.md::chunk-3",
+          "source": "article_04.md",
+          "chunk_index": 3,
+          "score": 0.6623723305315659,
+          "retrieval_method": "dense",
+          "content": "và áo dài cách tân.\ntrang phục truyền thống việt nam\nÁo dài là trang phục truyền thống tiêu biểu của Việt Nam\n### **Áo tứ thân – nét đẹp Bắc Bộ xưa**\nÁo tứ thân là trang phục truyền thống của phụ nữ miền Bắc xưa, mang đậm dấu ấn văn hóa nông thôn. Cấu trúc áo gồm bốn thân áo, buộc lại phía trước, bên trong mặc yếm và váy dài. Đi kèm với áo tứ thân là các phụ kiện đặc trưng như nón quai thao, thắt lưng lụa nhiều màu và khăn mỏ quạ.\ntrang phục truyền thống của việt nam\nÁo tứ thân là trang phục tr"
+        },
+        {
+          "id": "news/article_04.md::chunk-4",
+          "source": "article_04.md",
+          "chunk_index": 4,
+          "score": 0.6451828676349448,
+          "retrieval_method": "dense",
+          "content": "yền thống của việt nam\nÁo tứ thân là trang phục truyền thống của phụ nữ miền Bắc xưa\n### **Áo bà ba – đặc trưng Nam Bộ**\nÁo bà ba là trang phục quen thuộc của người dân Nam Bộ, nổi bật với thiết kế đơn giản, tiện dụng. Áo thường có cổ tròn hoặc cổ tim, hàng nút phía trước, kết hợp với quần dài đen hoặc trắng. Chất liệu nhẹ, thoáng mát giúp người mặc dễ dàng lao động, sinh hoạt trong điều kiện khí hậu nóng ẩm.\ncác trang phục truyền thống việt nam\nÁo thường có cổ tròn hoặc cổ tim, hàng nút phía tr"
+        },
+        {
+          "id": "news/article_05.md::chunk-7",
+          "source": "article_05.md",
+          "chunk_index": 7,
+          "score": 0.6258211217058078,
+          "retrieval_method": "dense",
+          "content": "32.jpg\n*Áo tứ thân là trang phục truуền thống và cũng là biểu tượng văn hóa của người con gái ở miền Bắc*\n> Xem thêm:[***Thuê áo tứ thân***](https://trangphuchonghanh.com/ao-dai-tu-than-d18.html)đẹp\nNgày nay, áo tứ thân vẫn được sử dụng trong các buổi biểu diễn văn nghệ, lễ hội văn hóa truyền thống, nhằm quảng bá và tôn vinh hình ảnh người phụ nữ Việt Nam xưa.\nhttps://trangphuchonghanh.com/files/sanpham/3070/1/jpg/thue-tu-than-98.jpg\n*Người con gái mặc áo tứ thân mộc mạc, giản dị nhưng vẫn đầy c"
+        },
+        {
+          "id": "news/article_05.md::chunk-5",
+          "source": "article_05.md",
+          "chunk_index": 5,
+          "score": 0.6012513453940095,
+          "retrieval_method": "dense",
+          "content": "i mặc.\nhttps://trangphuchonghanh.com/files/sanpham/3235/1/jpg/ao-dai-nam-202.jpg\n*Ngày xưa nam giới vẫn thường mặc áo dài*\n> Xem thêm: Các mẫu[**Thuê Áo Dài Nam**](https://trangphuchonghanh.com/ao-dai-nam-d61.html)\n[***Áo tứ thân***](https://trangphuchonghanh.com/ao-tu-than-d18.html)là một trong những trang phục truyền thống lâu đời của người con gái miền Bắc, mang trong mình những giá trị văn hóa và đức tính tốt đẹp của người phụ nữ Việt Nam. Áo được thiết kế với bốn tà áo, tượng trưng cho tứ t"
+        }
+      ],
+      "generation_seconds": 2.5203,
+      "evaluation_seconds": 2.5773
+    },
+    {
+      "config": "B",
+      "question": "Áo tứ thân có cấu trúc và phụ kiện đặc trưng nào?",
+      "expected_answer": "Áo tứ thân gồm bốn thân áo, buộc phía trước, mặc cùng yếm và váy dài; phụ kiện gồm nón quai thao, thắt lưng lụa và khăn mỏ quạ.",
+      "expected_context": "data/standardized/news/article_04.md: mục Áo tứ thân - nét đẹp Bắc Bộ xưa",
+      "answer": "Áo tứ thân có cấu trúc gồm bốn thân áo, buộc lại phía trước, bên trong mặc yếm và váy dài. Các phụ kiện đặc trưng đi kèm với áo tứ thân bao gồm nón quai thao, thắt lưng lụa nhiều màu và khăn mỏ quạ (citation: Document 5).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the structure and accessories of the áo tứ thân as described in the retrieved context, fully supporting the claims made in the reference answer.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_05.md::chunk-6",
+          "source": "article_05.md",
+          "chunk_index": 6,
+          "score": 0.03252247488101534,
+          "retrieval_method": "hybrid",
+          "content": "được thiết kế với bốn tà áo, tượng trưng cho tứ thân phụ mẫu: bố mẹ đẻ và bố mẹ chồng. Vạt cụt (phần yếm) ở trong hai vạt áo thể hiện sự che chở, bảo vệ của bố mẹ đối với con gái. Năm nút áo được đính cân xứng, đại diện cho năm đức tính: nhân, lễ, nghĩa, trí, tín. Hai vạt áo trước buộc lại với nhau, biểu trưng cho tình cảm vợ chồng luôn gắn bó, keo sơn.\nhttps://trangphuchonghanh.com/files/sanpham/3551/1/jpg/ao-tu-than-truyen-thong-nau-vat-xanh-132.jpg\n*Áo tứ thân là trang phục truуền thống và c"
+        },
+        {
+          "id": "news/article_04.md::chunk-3",
+          "source": "article_04.md",
+          "chunk_index": 3,
+          "score": 0.03252247488101534,
+          "retrieval_method": "hybrid",
+          "content": "và áo dài cách tân.\ntrang phục truyền thống việt nam\nÁo dài là trang phục truyền thống tiêu biểu của Việt Nam\n### **Áo tứ thân – nét đẹp Bắc Bộ xưa**\nÁo tứ thân là trang phục truyền thống của phụ nữ miền Bắc xưa, mang đậm dấu ấn văn hóa nông thôn. Cấu trúc áo gồm bốn thân áo, buộc lại phía trước, bên trong mặc yếm và váy dài. Đi kèm với áo tứ thân là các phụ kiện đặc trưng như nón quai thao, thắt lưng lụa nhiều màu và khăn mỏ quạ.\ntrang phục truyền thống của việt nam\nÁo tứ thân là trang phục tr"
+        },
+        {
+          "id": "news/article_04.md::chunk-4",
+          "source": "article_04.md",
+          "chunk_index": 4,
+          "score": 0.031746031746031744,
+          "retrieval_method": "hybrid",
+          "content": "yền thống của việt nam\nÁo tứ thân là trang phục truyền thống của phụ nữ miền Bắc xưa\n### **Áo bà ba – đặc trưng Nam Bộ**\nÁo bà ba là trang phục quen thuộc của người dân Nam Bộ, nổi bật với thiết kế đơn giản, tiện dụng. Áo thường có cổ tròn hoặc cổ tim, hàng nút phía trước, kết hợp với quần dài đen hoặc trắng. Chất liệu nhẹ, thoáng mát giúp người mặc dễ dàng lao động, sinh hoạt trong điều kiện khí hậu nóng ẩm.\ncác trang phục truyền thống việt nam\nÁo thường có cổ tròn hoặc cổ tim, hàng nút phía tr"
+        },
+        {
+          "id": "news/article_05.md::chunk-7",
+          "source": "article_05.md",
+          "chunk_index": 7,
+          "score": 0.03125,
+          "retrieval_method": "hybrid",
+          "content": "32.jpg\n*Áo tứ thân là trang phục truуền thống và cũng là biểu tượng văn hóa của người con gái ở miền Bắc*\n> Xem thêm:[***Thuê áo tứ thân***](https://trangphuchonghanh.com/ao-dai-tu-than-d18.html)đẹp\nNgày nay, áo tứ thân vẫn được sử dụng trong các buổi biểu diễn văn nghệ, lễ hội văn hóa truyền thống, nhằm quảng bá và tôn vinh hình ảnh người phụ nữ Việt Nam xưa.\nhttps://trangphuchonghanh.com/files/sanpham/3070/1/jpg/thue-tu-than-98.jpg\n*Người con gái mặc áo tứ thân mộc mạc, giản dị nhưng vẫn đầy c"
+        },
+        {
+          "id": "news/article_05.md::chunk-5",
+          "source": "article_05.md",
+          "chunk_index": 5,
+          "score": 0.03076923076923077,
+          "retrieval_method": "hybrid",
+          "content": "i mặc.\nhttps://trangphuchonghanh.com/files/sanpham/3235/1/jpg/ao-dai-nam-202.jpg\n*Ngày xưa nam giới vẫn thường mặc áo dài*\n> Xem thêm: Các mẫu[**Thuê Áo Dài Nam**](https://trangphuchonghanh.com/ao-dai-nam-d61.html)\n[***Áo tứ thân***](https://trangphuchonghanh.com/ao-tu-than-d18.html)là một trong những trang phục truyền thống lâu đời của người con gái miền Bắc, mang trong mình những giá trị văn hóa và đức tính tốt đẹp của người phụ nữ Việt Nam. Áo được thiết kế với bốn tà áo, tượng trưng cho tứ t"
+        }
+      ],
+      "generation_seconds": 3.365,
+      "evaluation_seconds": 2.4315
+    },
+    {
+      "config": "A",
+      "question": "Điều gì làm áo bà ba phù hợp với đời sống Nam Bộ?",
+      "expected_answer": "Áo bà ba có thiết kế đơn giản, tiện dụng, chất liệu nhẹ và thoáng mát, phù hợp lao động và sinh hoạt trong khí hậu nóng ẩm.",
+      "expected_context": "data/standardized/news/article_04.md: mục Áo bà ba - đặc trưng Nam Bộ",
+      "answer": "Áo bà ba phù hợp với đời sống Nam Bộ nhờ vào thiết kế đơn giản, tiện dụng và chất liệu nhẹ, thoáng mát, giúp người mặc dễ dàng lao động và sinh hoạt trong điều kiện khí hậu nóng ẩm của vùng này (Document 5).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the information provided in the context, specifically addressing the design, material, and suitability of áo bà ba for the climate and lifestyle in Nam Bộ.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_05.md::chunk-8",
+          "source": "article_05.md",
+          "chunk_index": 8,
+          "score": 0.6656499453571153,
+          "retrieval_method": "dense",
+          "content": "ái mặc áo tứ thân mộc mạc, giản dị nhưng vẫn đầy cuốn hút*\nÁo bà ba là trang phục truyền thống phổ biến ở miền Nam Việt Nam, dành cho cả nam và nữ. Với thiết kế đơn giản nhưng tinh tế, áo bà ba gợi lên hình ảnh của người con gái miền sông nước Nam Bộ – mộc mạc, bình dị và thân thiện. Áo có cổ, dài tay hoặc ngắn tay, với hàng cúc cài thẳng từ cổ xuống bụng, thường được làm từ chất liệu mềm mịn và thoáng mát như tơ lụa.\ntrang-phuc-truyen-thong-viet-nam-5\n*Áo bà ba là trang phục truуền thống dành c"
+        },
+        {
+          "id": "news/article_04.md::chunk-4",
+          "source": "article_04.md",
+          "chunk_index": 4,
+          "score": 0.6588933597036659,
+          "retrieval_method": "dense",
+          "content": "yền thống của việt nam\nÁo tứ thân là trang phục truyền thống của phụ nữ miền Bắc xưa\n### **Áo bà ba – đặc trưng Nam Bộ**\nÁo bà ba là trang phục quen thuộc của người dân Nam Bộ, nổi bật với thiết kế đơn giản, tiện dụng. Áo thường có cổ tròn hoặc cổ tim, hàng nút phía trước, kết hợp với quần dài đen hoặc trắng. Chất liệu nhẹ, thoáng mát giúp người mặc dễ dàng lao động, sinh hoạt trong điều kiện khí hậu nóng ẩm.\ncác trang phục truyền thống việt nam\nÁo thường có cổ tròn hoặc cổ tim, hàng nút phía tr"
+        },
+        {
+          "id": "news/article_05.md::chunk-10",
+          "source": "article_05.md",
+          "chunk_index": 10,
+          "score": 0.6398287016499493,
+          "retrieval_method": "dense",
+          "content": "địa phương. Chiếc áo bà ba không chỉ mang đến sự thoải mái cho người mặc mà còn thể hiện nét đẹp nhẹ nhàng, giản dị đặc trưng của con người miền Nam sông nước.\nhttps://trangphuchonghanh.com/files/sanpham/1214/1/jpg/ba-ba-nu-gam-cac-mau.jpg\n*Nét bình dị gần gũi nhưng vẫn đầy tinh tế của người con gái trong áo bà ba*\nÁo chàm là một trong những trang phục truyền thống của nhiều dân tộc thiểu số ở vùng núi phía Bắc Việt Nam. Tên gọi \"áo chàm\" xuất phát từ cây chàm – loài cây được sử dụng để nhuộm m"
+        },
+        {
+          "id": "news/article_05.md::chunk-9",
+          "source": "article_05.md",
+          "chunk_index": 9,
+          "score": 0.5983197864109433,
+          "retrieval_method": "dense",
+          "content": "-nam-5\n*Áo bà ba là trang phục truуền thống dành cho cả nam và nữ*\n*https://trangphuchonghanh.com/files/sanpham/2333/1/jpg/ba-ba-nu-ca-ro-dong-dao-7.jpg*\n*Áo bà ba là trang phục truуền thống dành cho cả nam và nữ*\n> Xem thêm:[***Thuê áo bà ba***](https://trangphuchonghanh.com/thue-ao-ba-ba-d11.html)đẹp\nDù trải qua nhiều thập kỷ, áo bà ba vẫn được nhiều người yêu thích và sử dụng trong nhiều hoàn cảnh, từ mặc ở nhà, đi chợ, đến tham gia các lễ hội địa phương. Chiếc áo bà ba không chỉ mang đến sự"
+        },
+        {
+          "id": "news/article_05.md::chunk-1",
+          "source": "article_05.md",
+          "chunk_index": 1,
+          "score": 0.5507804334522606,
+          "retrieval_method": "dense",
+          "content": "Việt Nam là một quốc gia có bề dày lịch sử lâu đời, với nền văn hóa phong phú và đậm đà bản sắc dân tộc. Trong đó,**trang phục truyền thống**đã góp phần tạo nên những dấu ấn văn hóa độc đáo, biểu trưng cho tinh hoa văn hiến của dân tộc. Những trang phục như áo dài, áo bà ba, áo tứ thân và nón quai thao không chỉ đơn thuần là y phục, mà còn là biểu tượng văn hóa, mang trong mình những giá trị lịch sử và tinh thần của người Việt.\nTrang phục truyền thống là phần không thể thiếu trong văn hóa và lịc"
+        }
+      ],
+      "generation_seconds": 3.367,
+      "evaluation_seconds": 3.4251
+    },
+    {
+      "config": "B",
+      "question": "Điều gì làm áo bà ba phù hợp với đời sống Nam Bộ?",
+      "expected_answer": "Áo bà ba có thiết kế đơn giản, tiện dụng, chất liệu nhẹ và thoáng mát, phù hợp lao động và sinh hoạt trong khí hậu nóng ẩm.",
+      "expected_context": "data/standardized/news/article_04.md: mục Áo bà ba - đặc trưng Nam Bộ",
+      "answer": "Áo bà ba phù hợp với đời sống Nam Bộ nhờ vào thiết kế đơn giản, tiện dụng và chất liệu nhẹ, thoáng mát, giúp người mặc dễ dàng lao động và sinh hoạt trong điều kiện khí hậu nóng ẩm của vùng này (Document 5).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the information provided in the retrieved context, specifically highlighting the simplicity, practicality, and breathable material of áo bà ba, which aligns with the reference answer.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_05.md::chunk-8",
+          "source": "article_05.md",
+          "chunk_index": 8,
+          "score": 0.03252247488101534,
+          "retrieval_method": "hybrid",
+          "content": "ái mặc áo tứ thân mộc mạc, giản dị nhưng vẫn đầy cuốn hút*\nÁo bà ba là trang phục truyền thống phổ biến ở miền Nam Việt Nam, dành cho cả nam và nữ. Với thiết kế đơn giản nhưng tinh tế, áo bà ba gợi lên hình ảnh của người con gái miền sông nước Nam Bộ – mộc mạc, bình dị và thân thiện. Áo có cổ, dài tay hoặc ngắn tay, với hàng cúc cài thẳng từ cổ xuống bụng, thường được làm từ chất liệu mềm mịn và thoáng mát như tơ lụa.\ntrang-phuc-truyen-thong-viet-nam-5\n*Áo bà ba là trang phục truуền thống dành c"
+        },
+        {
+          "id": "news/article_04.md::chunk-4",
+          "source": "article_04.md",
+          "chunk_index": 4,
+          "score": 0.03252247488101534,
+          "retrieval_method": "hybrid",
+          "content": "yền thống của việt nam\nÁo tứ thân là trang phục truyền thống của phụ nữ miền Bắc xưa\n### **Áo bà ba – đặc trưng Nam Bộ**\nÁo bà ba là trang phục quen thuộc của người dân Nam Bộ, nổi bật với thiết kế đơn giản, tiện dụng. Áo thường có cổ tròn hoặc cổ tim, hàng nút phía trước, kết hợp với quần dài đen hoặc trắng. Chất liệu nhẹ, thoáng mát giúp người mặc dễ dàng lao động, sinh hoạt trong điều kiện khí hậu nóng ẩm.\ncác trang phục truyền thống việt nam\nÁo thường có cổ tròn hoặc cổ tim, hàng nút phía tr"
+        },
+        {
+          "id": "news/article_05.md::chunk-10",
+          "source": "article_05.md",
+          "chunk_index": 10,
+          "score": 0.03149801587301587,
+          "retrieval_method": "hybrid",
+          "content": "địa phương. Chiếc áo bà ba không chỉ mang đến sự thoải mái cho người mặc mà còn thể hiện nét đẹp nhẹ nhàng, giản dị đặc trưng của con người miền Nam sông nước.\nhttps://trangphuchonghanh.com/files/sanpham/1214/1/jpg/ba-ba-nu-gam-cac-mau.jpg\n*Nét bình dị gần gũi nhưng vẫn đầy tinh tế của người con gái trong áo bà ba*\nÁo chàm là một trong những trang phục truyền thống của nhiều dân tộc thiểu số ở vùng núi phía Bắc Việt Nam. Tên gọi \"áo chàm\" xuất phát từ cây chàm – loài cây được sử dụng để nhuộm m"
+        },
+        {
+          "id": "news/article_05.md::chunk-9",
+          "source": "article_05.md",
+          "chunk_index": 9,
+          "score": 0.03149801587301587,
+          "retrieval_method": "hybrid",
+          "content": "-nam-5\n*Áo bà ba là trang phục truуền thống dành cho cả nam và nữ*\n*https://trangphuchonghanh.com/files/sanpham/2333/1/jpg/ba-ba-nu-ca-ro-dong-dao-7.jpg*\n*Áo bà ba là trang phục truуền thống dành cho cả nam và nữ*\n> Xem thêm:[***Thuê áo bà ba***](https://trangphuchonghanh.com/thue-ao-ba-ba-d11.html)đẹp\nDù trải qua nhiều thập kỷ, áo bà ba vẫn được nhiều người yêu thích và sử dụng trong nhiều hoàn cảnh, từ mặc ở nhà, đi chợ, đến tham gia các lễ hội địa phương. Chiếc áo bà ba không chỉ mang đến sự"
+        },
+        {
+          "id": "news/article_05.md::chunk-1",
+          "source": "article_05.md",
+          "chunk_index": 1,
+          "score": 0.015384615384615385,
+          "retrieval_method": "hybrid",
+          "content": "Việt Nam là một quốc gia có bề dày lịch sử lâu đời, với nền văn hóa phong phú và đậm đà bản sắc dân tộc. Trong đó,**trang phục truyền thống**đã góp phần tạo nên những dấu ấn văn hóa độc đáo, biểu trưng cho tinh hoa văn hiến của dân tộc. Những trang phục như áo dài, áo bà ba, áo tứ thân và nón quai thao không chỉ đơn thuần là y phục, mà còn là biểu tượng văn hóa, mang trong mình những giá trị lịch sử và tinh thần của người Việt.\nTrang phục truyền thống là phần không thể thiếu trong văn hóa và lịc"
+        }
+      ],
+      "generation_seconds": 1.8888,
+      "evaluation_seconds": 2.0859
+    },
+    {
+      "config": "A",
+      "question": "Bốn tà áo và năm nút của áo tứ thân được bài viết về 15 trang phục giải thích mang ý nghĩa gì?",
+      "expected_answer": "Bốn tà tượng trưng cho tứ thân phụ mẫu; năm nút đại diện cho nhân, lễ, nghĩa, trí, tín.",
+      "expected_context": "data/standardized/news/article_05.md: phần giải thích biểu tượng của áo tứ thân",
+      "answer": "Bốn tà áo của áo tứ thân tượng trưng cho tứ thân phụ mẫu, tức là bố mẹ đẻ và bố mẹ chồng. Năm nút áo được đính cân xứng đại diện cho năm đức tính: nhân, lễ, nghĩa, trí, tín (Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The answer accurately reflects the information provided in the retrieved context, directly addressing the question about the meanings of the four flaps and five buttons of the tứ thân áo.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_05.md::chunk-6",
+          "source": "article_05.md",
+          "chunk_index": 6,
+          "score": 0.6946856789147571,
+          "retrieval_method": "dense",
+          "content": "được thiết kế với bốn tà áo, tượng trưng cho tứ thân phụ mẫu: bố mẹ đẻ và bố mẹ chồng. Vạt cụt (phần yếm) ở trong hai vạt áo thể hiện sự che chở, bảo vệ của bố mẹ đối với con gái. Năm nút áo được đính cân xứng, đại diện cho năm đức tính: nhân, lễ, nghĩa, trí, tín. Hai vạt áo trước buộc lại với nhau, biểu trưng cho tình cảm vợ chồng luôn gắn bó, keo sơn.\nhttps://trangphuchonghanh.com/files/sanpham/3551/1/jpg/ao-tu-than-truyen-thong-nau-vat-xanh-132.jpg\n*Áo tứ thân là trang phục truуền thống và c"
+        },
+        {
+          "id": "news/article_04.md::chunk-3",
+          "source": "article_04.md",
+          "chunk_index": 3,
+          "score": 0.5638109278057866,
+          "retrieval_method": "dense",
+          "content": "và áo dài cách tân.\ntrang phục truyền thống việt nam\nÁo dài là trang phục truyền thống tiêu biểu của Việt Nam\n### **Áo tứ thân – nét đẹp Bắc Bộ xưa**\nÁo tứ thân là trang phục truyền thống của phụ nữ miền Bắc xưa, mang đậm dấu ấn văn hóa nông thôn. Cấu trúc áo gồm bốn thân áo, buộc lại phía trước, bên trong mặc yếm và váy dài. Đi kèm với áo tứ thân là các phụ kiện đặc trưng như nón quai thao, thắt lưng lụa nhiều màu và khăn mỏ quạ.\ntrang phục truyền thống của việt nam\nÁo tứ thân là trang phục tr"
+        },
+        {
+          "id": "news/article_05.md::chunk-7",
+          "source": "article_05.md",
+          "chunk_index": 7,
+          "score": 0.5563152384510225,
+          "retrieval_method": "dense",
+          "content": "32.jpg\n*Áo tứ thân là trang phục truуền thống và cũng là biểu tượng văn hóa của người con gái ở miền Bắc*\n> Xem thêm:[***Thuê áo tứ thân***](https://trangphuchonghanh.com/ao-dai-tu-than-d18.html)đẹp\nNgày nay, áo tứ thân vẫn được sử dụng trong các buổi biểu diễn văn nghệ, lễ hội văn hóa truyền thống, nhằm quảng bá và tôn vinh hình ảnh người phụ nữ Việt Nam xưa.\nhttps://trangphuchonghanh.com/files/sanpham/3070/1/jpg/thue-tu-than-98.jpg\n*Người con gái mặc áo tứ thân mộc mạc, giản dị nhưng vẫn đầy c"
+        },
+        {
+          "id": "news/article_05.md::chunk-5",
+          "source": "article_05.md",
+          "chunk_index": 5,
+          "score": 0.5417241293539314,
+          "retrieval_method": "dense",
+          "content": "i mặc.\nhttps://trangphuchonghanh.com/files/sanpham/3235/1/jpg/ao-dai-nam-202.jpg\n*Ngày xưa nam giới vẫn thường mặc áo dài*\n> Xem thêm: Các mẫu[**Thuê Áo Dài Nam**](https://trangphuchonghanh.com/ao-dai-nam-d61.html)\n[***Áo tứ thân***](https://trangphuchonghanh.com/ao-tu-than-d18.html)là một trong những trang phục truyền thống lâu đời của người con gái miền Bắc, mang trong mình những giá trị văn hóa và đức tính tốt đẹp của người phụ nữ Việt Nam. Áo được thiết kế với bốn tà áo, tượng trưng cho tứ t"
+        },
+        {
+          "id": "news/article_05.md::chunk-1",
+          "source": "article_05.md",
+          "chunk_index": 1,
+          "score": 0.5406690626501056,
+          "retrieval_method": "dense",
+          "content": "Việt Nam là một quốc gia có bề dày lịch sử lâu đời, với nền văn hóa phong phú và đậm đà bản sắc dân tộc. Trong đó,**trang phục truyền thống**đã góp phần tạo nên những dấu ấn văn hóa độc đáo, biểu trưng cho tinh hoa văn hiến của dân tộc. Những trang phục như áo dài, áo bà ba, áo tứ thân và nón quai thao không chỉ đơn thuần là y phục, mà còn là biểu tượng văn hóa, mang trong mình những giá trị lịch sử và tinh thần của người Việt.\nTrang phục truyền thống là phần không thể thiếu trong văn hóa và lịc"
+        }
+      ],
+      "generation_seconds": 3.6604,
+      "evaluation_seconds": 2.019
+    },
+    {
+      "config": "B",
+      "question": "Bốn tà áo và năm nút của áo tứ thân được bài viết về 15 trang phục giải thích mang ý nghĩa gì?",
+      "expected_answer": "Bốn tà tượng trưng cho tứ thân phụ mẫu; năm nút đại diện cho nhân, lễ, nghĩa, trí, tín.",
+      "expected_context": "data/standardized/news/article_05.md: phần giải thích biểu tượng của áo tứ thân",
+      "answer": "Bốn tà áo của áo tứ thân tượng trưng cho tứ thân phụ mẫu, tức là bố mẹ đẻ và bố mẹ chồng. Năm nút áo được đính cân xứng, đại diện cho năm đức tính: nhân, lễ, nghĩa, trí, tín (Document 1).",
+      "metrics": {
+        "faithfulness": 1.0,
+        "answer_relevance": 1.0,
+        "context_recall": 1.0,
+        "context_precision": 1.0
+      },
+      "justification": "The generated answer accurately reflects the information provided in the retrieved context, directly answering the question about the symbolism of the four flaps and five buttons of the áo tứ thân.",
+      "retrieved_chunks": [
+        {
+          "id": "news/article_05.md::chunk-6",
+          "source": "article_05.md",
+          "chunk_index": 6,
+          "score": 0.03278688524590164,
+          "retrieval_method": "hybrid",
+          "content": "được thiết kế với bốn tà áo, tượng trưng cho tứ thân phụ mẫu: bố mẹ đẻ và bố mẹ chồng. Vạt cụt (phần yếm) ở trong hai vạt áo thể hiện sự che chở, bảo vệ của bố mẹ đối với con gái. Năm nút áo được đính cân xứng, đại diện cho năm đức tính: nhân, lễ, nghĩa, trí, tín. Hai vạt áo trước buộc lại với nhau, biểu trưng cho tình cảm vợ chồng luôn gắn bó, keo sơn.\nhttps://trangphuchonghanh.com/files/sanpham/3551/1/jpg/ao-tu-than-truyen-thong-nau-vat-xanh-132.jpg\n*Áo tứ thân là trang phục truуền thống và c"
+        },
+        {
+          "id": "news/article_04.md::chunk-3",
+          "source": "article_04.md",
+          "chunk_index": 3,
+          "score": 0.03225806451612903,
+          "retrieval_method": "hybrid",
+          "content": "và áo dài cách tân.\ntrang phục truyền thống việt nam\nÁo dài là trang phục truyền thống tiêu biểu của Việt Nam\n### **Áo tứ thân – nét đẹp Bắc Bộ xưa**\nÁo tứ thân là trang phục truyền thống của phụ nữ miền Bắc xưa, mang đậm dấu ấn văn hóa nông thôn. Cấu trúc áo gồm bốn thân áo, buộc lại phía trước, bên trong mặc yếm và váy dài. Đi kèm với áo tứ thân là các phụ kiện đặc trưng như nón quai thao, thắt lưng lụa nhiều màu và khăn mỏ quạ.\ntrang phục truyền thống của việt nam\nÁo tứ thân là trang phục tr"
+        },
+        {
+          "id": "news/article_05.md::chunk-5",
+          "source": "article_05.md",
+          "chunk_index": 5,
+          "score": 0.03149801587301587,
+          "retrieval_method": "hybrid",
+          "content": "i mặc.\nhttps://trangphuchonghanh.com/files/sanpham/3235/1/jpg/ao-dai-nam-202.jpg\n*Ngày xưa nam giới vẫn thường mặc áo dài*\n> Xem thêm: Các mẫu[**Thuê Áo Dài Nam**](https://trangphuchonghanh.com/ao-dai-nam-d61.html)\n[***Áo tứ thân***](https://trangphuchonghanh.com/ao-tu-than-d18.html)là một trong những trang phục truyền thống lâu đời của người con gái miền Bắc, mang trong mình những giá trị văn hóa và đức tính tốt đẹp của người phụ nữ Việt Nam. Áo được thiết kế với bốn tà áo, tượng trưng cho tứ t"
+        },
+        {
+          "id": "news/article_05.md::chunk-7",
+          "source": "article_05.md",
+          "chunk_index": 7,
+          "score": 0.031024531024531024,
+          "retrieval_method": "hybrid",
+          "content": "32.jpg\n*Áo tứ thân là trang phục truуền thống và cũng là biểu tượng văn hóa của người con gái ở miền Bắc*\n> Xem thêm:[***Thuê áo tứ thân***](https://trangphuchonghanh.com/ao-dai-tu-than-d18.html)đẹp\nNgày nay, áo tứ thân vẫn được sử dụng trong các buổi biểu diễn văn nghệ, lễ hội văn hóa truyền thống, nhằm quảng bá và tôn vinh hình ảnh người phụ nữ Việt Nam xưa.\nhttps://trangphuchonghanh.com/files/sanpham/3070/1/jpg/thue-tu-than-98.jpg\n*Người con gái mặc áo tứ thân mộc mạc, giản dị nhưng vẫn đầy c"
+        },
+        {
+          "id": "news/article_04.md::chunk-4",
+          "source": "article_04.md",
+          "chunk_index": 4,
+          "score": 0.03055037313432836,
+          "retrieval_method": "hybrid",
+          "content": "yền thống của việt nam\nÁo tứ thân là trang phục truyền thống của phụ nữ miền Bắc xưa\n### **Áo bà ba – đặc trưng Nam Bộ**\nÁo bà ba là trang phục quen thuộc của người dân Nam Bộ, nổi bật với thiết kế đơn giản, tiện dụng. Áo thường có cổ tròn hoặc cổ tim, hàng nút phía trước, kết hợp với quần dài đen hoặc trắng. Chất liệu nhẹ, thoáng mát giúp người mặc dễ dàng lao động, sinh hoạt trong điều kiện khí hậu nóng ẩm.\ncác trang phục truyền thống việt nam\nÁo thường có cổ tròn hoặc cổ tim, hàng nút phía tr"
+        }
+      ],
+      "generation_seconds": 1.9635,
+      "evaluation_seconds": 3.3811
+    }
+  ],
+  "summary": {
+    "A": {
+      "faithfulness": 0.933333,
+      "answer_relevance": 0.986667,
+      "context_recall": 0.986667,
+      "context_precision": 0.986667,
+      "average": 0.973333,
+      "generation_p50_seconds": 3.5012,
+      "evaluation_p50_seconds": 2.5773
+    },
+    "B": {
+      "faithfulness": 0.866667,
+      "answer_relevance": 0.9,
+      "context_recall": 0.9,
+      "context_precision": 0.886667,
+      "average": 0.888333,
+      "generation_p50_seconds": 2.5144,
+      "evaluation_p50_seconds": 3.0689
+    }
+  }
+}

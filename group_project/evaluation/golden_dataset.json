@@ -1,0 +1,77 @@
+[
+	{
+		"question": "Theo bài viết về đổi mới lễ hội, các lễ hội Xuân Ất Tỵ 2025 vừa bảo tồn văn hóa vừa tạo thêm giá trị gì cho địa phương?",
+		"expected_answer": "Các lễ hội vừa bảo tồn những nét văn hóa truyền thống đặc sắc, vừa gia tăng giá trị điểm đến và tạo sức hút du lịch cho địa phương.",
+		"expected_context": "data/standardized/news/article_01.md: công tác quản lý lễ hội bảo tồn nét văn hóa và gia tăng giá trị điểm đến"
+	},
+	{
+		"question": "Hội Lim năm 2025 có những hoạt động văn hóa nào ngoài nghi lễ truyền thống?",
+		"expected_answer": "Hội Lim có trình diễn dân ca Quan họ, thư pháp, hội thơ và triển lãm tư liệu, hiện vật bảo tồn di sản Quan họ Bắc Ninh.",
+		"expected_context": "data/standardized/news/article_01.md: phần hội tại đồi Lim và hồ Vân Tương"
+	},
+	{
+		"question": "Ban tổ chức Hội Lim bố trí lán Quan họ cho nhóm nào và mục đích là gì?",
+		"expected_answer": "Lán Quan họ dành cho các liền anh, liền chị nhí từ 4 đến 15 tuổi, nhằm tạo sân chơi và góp phần bảo tồn, truyền dạy Quan họ cho thế hệ trẻ.",
+		"expected_context": "data/standardized/news/article_01.md: lán Quan họ dành cho thế hệ măng non"
+	},
+	{
+		"question": "Các biện pháp an ninh tại lễ khai ấn đền Trần Nam Định năm 2025 gồm những nội dung chính nào?",
+		"expected_answer": "Hơn 2.500 cán bộ, chiến sĩ được huy động để bảo đảm an ninh trật tự, an toàn giao thông, phòng chống cháy nổ và xử lý các hành vi như ăn xin, trộm cắp, móc túi.",
+		"expected_context": "data/standardized/news/article_01.md: công tác bảo đảm an ninh tại lễ khai ấn đền Trần"
+	},
+	{
+		"question": "Bài viết đề xuất cân bằng giữa bảo tồn truyền thống và đổi mới lễ hội như thế nào?",
+		"expected_answer": "Cần duy trì các yếu tố cốt lõi và sự tham gia của cộng đồng, chuyên gia, cơ quan quản lý, đồng thời cho phép đổi mới phù hợp với bối cảnh văn hóa.",
+		"expected_context": "data/standardized/news/article_01.md: quan điểm về cân bằng bảo tồn và phát triển"
+	},
+	{
+		"question": "Công văn được bài viết của Báo Điện tử Chính phủ nhắc đến yêu cầu tổ chức lễ hội theo nguyên tắc nào?",
+		"expected_answer": "Lễ hội phải đúng bản chất và ý nghĩa lịch sử văn hóa, phù hợp thuần phong mỹ tục; những tập tục không còn phù hợp cần được loại bỏ hoặc thay thế.",
+		"expected_context": "data/standardized/news/article_02.md: Công văn số 5256/BVHTTDL-VP và yêu cầu tổ chức lễ hội"
+	},
+	{
+		"question": "Các cơ quan quản lý cần kiểm tra những nguy cơ nào trong hoạt động lễ hội?",
+		"expected_answer": "Cần ngăn chặn việc lợi dụng di tích, lễ hội, tín ngưỡng để trục lợi, mê tín dị đoan, cờ bạc và tổ chức lễ hội tràn lan gây lãng phí.",
+		"expected_context": "data/standardized/news/article_02.md: tăng cường thanh tra, kiểm tra và xử lý vi phạm"
+	},
+	{
+		"question": "Theo bài viết, việc tổ chức bắn pháo hoa đầu năm phải đáp ứng điều kiện nào?",
+		"expected_answer": "Địa phương quyết định theo tình hình và khả năng thực tế, phải bảo đảm an toàn, tiết kiệm và không sử dụng ngân sách nhà nước.",
+		"expected_context": "data/standardized/news/article_02.md: hướng dẫn quyết định tổ chức bắn pháo hoa"
+	},
+	{
+		"question": "Tục ăn trầu có những ý nghĩa văn hóa nào được bài viết mô tả?",
+		"expected_answer": "Ăn trầu thể hiện sự hiếu khách, tượng trưng cho tình yêu lứa đôi, gắn kết lương duyên và thể hiện lòng thành kính với thế hệ trước.",
+		"expected_context": "data/standardized/news/article_03.md: mục Giao thiệp và tục ăn trầu"
+	},
+	{
+		"question": "Tết Đoan Ngọ được tổ chức vào thời điểm nào và có những tục lệ nào?",
+		"expected_answer": "Tết Đoan Ngọ diễn ra vào ngày 5/5 âm lịch, với các tục lệ như giết sâu bọ, tắm nước lá mùi, nhuộm móng và hái thuốc giờ Ngọ.",
+		"expected_context": "data/standardized/news/article_03.md: mục Tết Đoan Ngọ"
+	},
+	{
+		"question": "Tết Trung thu được mô tả là ngày Tết dành cho ai và trẻ em thường làm gì?",
+		"expected_answer": "Tết Trung thu là Tết của thiếu niên, nhi đồng; các em thường rước đèn lồng, phá cỗ và được tặng quà.",
+		"expected_context": "data/standardized/news/article_03.md: mục Tết trung thu"
+	},
+	{
+		"question": "Áo dài Việt Nam có nguồn gốc và hai dạng phổ biến nào theo bài viết Canifa?",
+		"expected_answer": "Áo dài bắt nguồn từ áo ngũ thân thời Nguyễn và hiện có áo dài truyền thống cùng áo dài cách tân.",
+		"expected_context": "data/standardized/news/article_04.md: mục Áo dài - biểu tượng quốc gia"
+	},
+	{
+		"question": "Áo tứ thân có cấu trúc và phụ kiện đặc trưng nào?",
+		"expected_answer": "Áo tứ thân gồm bốn thân áo, buộc phía trước, mặc cùng yếm và váy dài; phụ kiện gồm nón quai thao, thắt lưng lụa và khăn mỏ quạ.",
+		"expected_context": "data/standardized/news/article_04.md: mục Áo tứ thân - nét đẹp Bắc Bộ xưa"
+	},
+	{
+		"question": "Điều gì làm áo bà ba phù hợp với đời sống Nam Bộ?",
+		"expected_answer": "Áo bà ba có thiết kế đơn giản, tiện dụng, chất liệu nhẹ và thoáng mát, phù hợp lao động và sinh hoạt trong khí hậu nóng ẩm.",
+		"expected_context": "data/standardized/news/article_04.md: mục Áo bà ba - đặc trưng Nam Bộ"
+	},
+	{
+		"question": "Bốn tà áo và năm nút của áo tứ thân được bài viết về 15 trang phục giải thích mang ý nghĩa gì?",
+		"expected_answer": "Bốn tà tượng trưng cho tứ thân phụ mẫu; năm nút đại diện cho nhân, lễ, nghĩa, trí, tín.",
+		"expected_context": "data/standardized/news/article_05.md: phần giải thích biểu tượng của áo tứ thân"
+	}
+]
